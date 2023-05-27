@@ -1,0 +1,34 @@
+* REPORTE DE PRUEBAS DE MASTITIS
+* ------------------------------
+USE REG ORDER 2 IN 1
+USE MAST ORDER 1 IN 2
+CREATE TABLE CMT01 (ID c(60))
+
+Select REG
+Set Order To 2
+Set Filt To FB2=B And FSEC=B
+
+Select MAST
+CALCULATE MAX(FTES) TO xFMAX
+SET RELATION TO ID INTO REG
+
+SCAN
+	SELECT MAST
+	IF MAST.FTES=xFMAX
+		xx=STR(REG.ID,5)+'  '+STR(REG.CORR,3)+'  '+STR(MAST.ID,5)+' '+DTOC(MAST.FTES)+' '+STR(DI,1)+' '+STR(DD,1)+' '+STR(TI,1)+'  '+STR(TD,1)
+		skip-1
+		IF MAST.ID=REG.ID
+			xx=xx+' '+DTOC(MAST.FTES)+' '+STR(DI,1)+' '+STR(DD,1)+' '+STR(TI,1)+'  '+STR(TD,1)
+			Skip
+		ELSE
+		SKIP
+		ENDIF
+		SELECT CMT01
+		APPEND BLANK 
+		REPLACE id WITH xx
+		browse
+	
+		
+	ENDI	
+
+ENDSCAN

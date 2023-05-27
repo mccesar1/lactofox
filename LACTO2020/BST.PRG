@@ -1,0 +1,31 @@
+USE c:\lacto2006\lx2\reg IN 1
+USE c:\lacto2006\lx2\bst IN 2
+
+
+SELECT reg
+SET ORDER TO 2
+GO top
+
+xid=REG.ID
+
+SCAN
+@0,0 say STR(REG.ID,5)
+	SELECT bst
+	SET ORDER TO 1
+	SEEK xid
+	IF FOUND()
+		SCAN WHILE BST.ID=xid
+			IF BST.NP>REG.NP
+			DELETE
+			ENDIF
+		ENDSCAN
+	endif	
+		SELECT reg
+		xid=REG.ID
+			
+ENDSCAN
+SELECT BST
+PACK
+BROWSE FOR ID=1622
+CLOSE DATABASES
+

@@ -1,0 +1,272 @@
+PRIVATE xnm,xnt
+
+* REPORTE DE CALCULO DE TASA DE PREÑEZ
+* ------------------------------------
+PROCEDURE RV1068
+PARAMETER xCDIAS
+Dimension xVACAS(30),xDETEC(30),nVACAS(30),xCARGA(30)
+xVACAS=0
+xDETEC=0
+
+nVACAS=0
+xCARGA=0
+
+Select CALOR
+Set Order To 2
+SET FILTER TO SER>0 
+
+Select REG
+Set Order To 2
+Set Filter To FB2=B AND PSV#'S' 
+Set Relation To ID Into CALOR
+
+SCAN
+
+** DETECCION DE CELO
+** ------------------------------*
+		If FPAR+xCDIAS<=DATE()-231
+			xVACAS(1)=IIF(UCAL<=DATE()-231 And STAT='CARGA',xVACAS(1),xVACAS(1)+1)
+			
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(1)=IIF(FECHA>=DATE()-252 And FECHA<=DATE()-231 And (CLAVE=4 Or CLAVE=5),xDETEC(1)+1,xDETEC(1))
+			EndScan
+			Select REG
+		Endif
+
+		If FPAR+xCDIAS<=DATE()-210
+			xVACAS(2)=IIF(UCAL<=DATE()-210 And STAT='CARGA',xVACAS(2),xVACAS(2)+1)
+			
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(2)=IIF(FECHA>=DATE()-231 And FECHA<=DATE()-210 And (CLAVE=4 Or CLAVE=5),xDETEC(2)+1,xDETEC(2))
+			EndScan
+			Select REG
+		Endif
+
+		If FPAR+xCDIAS<=DATE()-189
+			xVACAS(3)=IIF(UCAL<DATE()-189 And STAT='CARGA',xVACAS(3),xVACAS(3)+1)
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(3)=IIF(FECHA>=DATE()-210 And FECHA<=DATE()-189 And (CLAVE=4 Or CLAVE=5),xDETEC(3)+1,xDETEC(3))
+			EndScan
+			Select REG
+		Endif
+
+		If FPAR+xCDIAS<=DATE()-168
+			xVACAS(4)=IIF(UCAL<DATE()-168 And STAT='CARGA',xVACAS(4),xVACAS(4)+1)
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(4)=IIF(FECHA>=DATE()-189 And FECHA<DATE()-168 And (CLAVE=4 Or CLAVE=5),xDETEC(4)+1,xDETEC(4))
+			EndScan
+			Select REG
+		Endif
+
+		If FPAR+xCDIAS<=DATE()-147
+			xVACAS(5)=IIF(UCAL<DATE()-147 And STAT='CARGA',xVACAS(5),xVACAS(5)+1)
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=DATE()-168 And FECHA<DATE()-147 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+
+		If FPAR+xCDIAS<=DATE()-126
+			xVACAS(6)=IIF(UCAL<DATE()-126 And STAT='CARGA',xVACAS(6),xVACAS(6)+1)
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(6)=IIF(FECHA>=DATE()-147 And FECHA<DATE()-126 And (CLAVE=4 Or CLAVE=5),xDETEC(6)+1,xDETEC(6))
+			EndScan
+			Select REG
+		Endif
+
+		If FPAR+xCDIAS<=DATE()-105
+			xVACAS(7)=IIF(UCAL<DATE()-105 And STAT='CARGA',xVACAS(7),xVACAS(7)+1)
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(7)=IIF(FECHA>=DATE()-126 And FECHA<DATE()-105 And (CLAVE=4 Or CLAVE=5),xDETEC(7)+1,xDETEC(7))
+			EndScan
+			Select REG
+		Endif
+
+		If FPAR+xCDIAS<=DATE()-84
+			xVACAS(8)=IIF(UCAL<DATE()-84 And STAT='CARGA',xVACAS(8),xVACAS(8)+1)
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(8)=IIF(FECHA>=DATE()-105 And FECHA<DATE()-84 And (CLAVE=4 Or CLAVE=5),xDETEC(8)+1,xDETEC(8))
+			EndScan
+			Select REG
+		Endif
+
+		If FPAR+xCDIAS<=DATE()-63
+			xVACAS(9)=IIF(UCAL<DATE()-63 And STAT='CARGA',xVACAS(9),xVACAS(9)+1)
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(9)=IIF(FECHA>=DATE()-84 And FECHA<DATE()-63 And (CLAVE=4 Or CLAVE=5),xDETEC(9)+1,xDETEC(9))
+			EndScan
+			Select REG
+		Endif
+		
+		If FPAR+xCDIAS<=DATE()-42
+			xVACAS(10)=IIF(UCAL<DATE()-42 And STAT='CARGA',xVACAS(10),xVACAS(10)+1)
+
+			Select CALOR
+			If Seek(REG.ID)
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(10)=IIF(FECHA>=DATE()-63 And FECHA<DATE()-42 And (CLAVE=4 Or CLAVE=5),xDETEC(10)+1,xDETEC(10))
+			EndScan
+			Endif
+			Select REG
+		Endif
+		
+		If FPAR+xCDIAS<=DATE()-21
+			xVACAS(11)=IIF(UCAL<DATE()-21 And STAT='CARGA',xVACAS(11),xVACAS(11)+1)
+			
+			Select CALOR
+			If Seek(REG.ID)
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(11)=IIF(FECHA>=DATE()-42 And FECHA<DATE()-21 And (CLAVE=4 Or CLAVE=5),xDETEC(11)+1,xDETEC(11))
+			EndScan
+			Endif
+			Select REG
+		Endif
+
+
+		If FPAR+xCDIAS<=DATE()
+			xVACAS(12)=IIF(UCAL<DATE() And (STAT='INSEM' Or STAT='CARGA'),xVACAS(12),xVACAS(12)+1)   && CORRECTO
+			
+			Select CALOR
+			If Seek(REG.ID)
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(12)=IIF(FECHA>=DATE()-21 And FECHA<=DATE() And REG.UCAL=CALOR.FECHA,xDETEC(12)+1,xDETEC(12))
+			EndScan
+			Endif
+			Select REG
+		Endif
+
+		xVACAS(15)=xVACAS(1)+xVACAS(2)+xVACAS(3)+xVACAS(4)+xVACAS(5)+xVACAS(6)+xVACAS(7)+xVACAS(8)+xVACAS(9)+xVACAS(10)+xVACAS(11)+xVACAS(12)
+		xDETEC(15)=xDETEC(1)+xDETEC(2)+xDETEC(3)+xDETEC(4)+xDETEC(5)+xDETEC(6)+xDETEC(7)+xDETEC(8)+xDETEC(9)+xDETEC(10)+xDETEC(11)+xDETEC(12)
+
+ENDSCAN
+
+
+** CALCULO DE TASA DE PREÑEZ
+** ------------------------------*
+SCAN
+		If FPAR+Q5<=DATE()-231 
+*			nVACAS(1)=IIF(UCAL<=DATE()-252 And (STAT='INSEM' Or STAT='CARGA'),nVACAS(1),nVACAS(1)+1)
+			nVACAS(1)=IIF(UCAL<=DATE()-231 And STAT='CARGA',nVACAS(1),nVACAS(1)+1)
+			xCARGA(1)=IIF(UCAL>=DATE()-252 And UCAL<=DATE()-231 And STAT='CARGA',xCARGA(1)+1,xCARGA(1))
+		Endif
+
+		If FPAR+Q5<=DATE()-210 
+			nVACAS(2)=IIF(UCAL<=DATE()-210 And STAT='CARGA',nVACAS(2),nVACAS(2)+1)
+			xCARGA(2)=IIF(UCAL>=DATE()-231 And UCAL<=DATE()-210 And STAT='CARGA',xCARGA(2)+1,xCARGA(2))
+		Endif
+
+		If FPAR+Q5<=DATE()-189 
+			nVACAS(3)=IIF(UCAL<=DATE()-189 And STAT='CARGA',nVACAS(3),nVACAS(3)+1)
+			xCARGA(3)=IIF(UCAL>=DATE()-210 And UCAL<=DATE()-189 And STAT='CARGA',xCARGA(3)+1,xCARGA(3))
+		Endif
+
+		If FPAR+Q5<=DATE()-168
+			nVACAS(4)=IIF(UCAL<=DATE()-168 And STAT='CARGA',nVACAS(4),nVACAS(4)+1)
+			xCARGA(4)=IIF(UCAL>=DATE()-189 And UCAL<=DATE()-168 And STAT='CARGA',xCARGA(4)+1,xCARGA(4))
+		Endif
+
+		If FPAR+Q5<=DATE()-147
+			nVACAS(5)=IIF(UCAL<=DATE()-147 And STAT='CARGA',nVACAS(5),nVACAS(5)+1)
+			xCARGA(5)=IIF(UCAL>=DATE()-168 And UCAL<=DATE()-147 And STAT='CARGA',xCARGA(5)+1,xCARGA(5))
+		Endif
+
+		If FPAR+Q5<=DATE()-126
+			nVACAS(6)=IIF(UCAL<=DATE()-126 And STAT='CARGA',nVACAS(6),nVACAS(6)+1)
+			xCARGA(6)=IIF(UCAL>=DATE()-147 And UCAL<=DATE()-126 And STAT='CARGA',xCARGA(6)+1,xCARGA(6))
+		Endif
+
+		If FPAR+Q5<=DATE()-105
+			nVACAS(7)=IIF(UCAL<=DATE()-105 And STAT='CARGA',nVACAS(7),nVACAS(7)+1)
+			xCARGA(7)=IIF(UCAL>=DATE()-126 And UCAL<=DATE()-105 And STAT='CARGA',xCARGA(7)+1,xCARGA(7))
+		Endif
+
+		If FPAR+Q5<=DATE()-84
+			nVACAS(8)=IIF(UCAL<=DATE()-84 And STAT='CARGA',nVACAS(8),nVACAS(8)+1)
+			xCARGA(8)=IIF(UCAL>=DATE()-105 And UCAL<=DATE()-84 And STAT='CARGA',xCARGA(8)+1,xCARGA(8))
+		Endif
+
+		If FPAR+Q5<=DATE()-63
+			nVACAS(9)=IIF(UCAL<=DATE()-63 And STAT='CARGA',nVACAS(9),nVACAS(9)+1)
+			xCARGA(9)=IIF(UCAL>=DATE()-84 And UCAL<=DATE()-63 And STAT='CARGA',xCARGA(9)+1,xCARGA(9))
+		Endif
+		
+		If FPAR+Q5<=DATE()-42 
+			nVACAS(10)=IIF(UCAL<=DATE()-42 And STAT='CARGA',nVACAS(10),nVACAS(10)+1)
+			xCARGA(10)=IIF(UCAL>=DATE()-63 And UCAL<=DATE()-42 And STAT='CARGA',xCARGA(10)+1,xCARGA(10))
+		Endif
+		
+		If FPAR+Q5<=DATE()-21 
+			nVACAS(11)=0
+			xCARGA(11)=0
+		Endif
+
+		If FPAR+Q5<=DATE()
+			nVACAS(12)=0
+			xCARGA(12)=0
+		Endif
+
+		nVACAS(15)=nVACAS(1)+nVACAS(2)+nVACAS(3)+nVACAS(4)+nVACAS(5)+nVACAS(6)+nVACAS(7)+nVACAS(8)+nVACAS(9)+nVACAS(10)+nVACAS(11)+nVACAS(12)
+		xCARGA(15)=xCARGA(1)+xCARGA(2)+xCARGA(3)+xCARGA(4)+xCARGA(5)+xCARGA(6)+xCARGA(7)+xCARGA(8)+xCARGA(9)+xCARGA(10)+xCARGA(11)+xCARGA(12)
+
+ENDSCAN
+Set Filter To
+
+Create Cursor REPORTE (Concepto c(20),COL1 c(5),COL2 c(5),COL3 c(5),COL4 c(5),COL5 c(5),COL6 c(5))
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-252),COL1 With Str(xVACAS(1),4),COL2 With Str(xDETEC(1),4),COL3 With Str(xDETEC(1)/xVACAS(1)*100,3),COL4 With Str(nVACAS(1),4),COL5 With Str(xCARGA(1),4),COL6 With Str(xCARGA(1)/nVACAS(1)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-231),COL1 With Str(xVACAS(2),4),COL2 With Str(xDETEC(2),4),COL3 With Str(xDETEC(2)/xVACAS(2)*100,3),COL4 With Str(nVACAS(2),4),COL5 With Str(xCARGA(2),4),COL6 With Str(xCARGA(2)/nVACAS(2)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-210),COL1 With Str(xVACAS(3),4),COL2 With Str(xDETEC(3),4),COL3 With Str(xDETEC(3)/xVACAS(3)*100,3),COL4 With Str(nVACAS(3),4),COL5 With Str(xCARGA(3),4),COL6 With Str(xCARGA(3)/nVACAS(3)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-189),COL1 With Str(xVACAS(4),4),COL2 With Str(xDETEC(4),4),COL3 With Str(xDETEC(4)/xVACAS(4)*100,3),COL4 With Str(nVACAS(4),4),COL5 With Str(xCARGA(4),4),COL6 With Str(xCARGA(4)/nVACAS(4)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-168),COL1 With Str(xVACAS(5),4),COL2 With Str(xDETEC(5),4),COL3 With Str(xDETEC(5)/xVACAS(5)*100,3),COL4 With Str(nVACAS(5),4),COL5 With Str(xCARGA(5),4),COL6 With Str(xCARGA(5)/nVACAS(5)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-147),COL1 With Str(xVACAS(6),4),COL2 With Str(xDETEC(6),4),COL3 With Str(xDETEC(6)/xVACAS(7)*100,3),COL4 With Str(nVACAS(6),4),COL5 With Str(xCARGA(6),4),COL6 With Str(xCARGA(6)/nVACAS(6)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-126),COL1 With Str(xVACAS(7),4),COL2 With Str(xDETEC(7),4),COL3 With Str(xDETEC(7)/xVACAS(7)*100,3),COL4 With Str(nVACAS(7),4),COL5 With Str(xCARGA(7),4),COL6 With Str(xCARGA(7)/nVACAS(7)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-105),COL1 With Str(xVACAS(8),4),COL2 With Str(xDETEC(8),4),COL3 With Str(xDETEC(8)/xVACAS(8)*100,3),COL4 With Str(nVACAS(8),4),COL5 With Str(xCARGA(8),4),COL6 With Str(xCARGA(8)/nVACAS(8)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()- 84),COL1 With Str(xVACAS(9),4),COL2 With Str(xDETEC(9),4),COL3 With Str(xDETEC(9)/xVACAS(9)*100,3),COL4 With Str(nVACAS(9),4),COL5 With Str(xCARGA(9),4),COL6 With Str(xCARGA(9)/nVACAS(9)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-63),COL1 With Str(xVACAS(10),4),COL2 With Str(xDETEC(10),4),COL3 With Str(xDETEC(10)/xVACAS(10)*100,3),COL4 With Str(nVACAS(10),4),COL5 With Str(xCARGA(10),4),COL6 With Str(xCARGA(10)/nVACAS(10)*100,3)
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-42),COL1 With Str(xVACAS(11),4),COL2 With Str(xDETEC(11),4),COL3 With IIF(xDETEC(11)>0,Str(xDETEC(11)/xVACAS(11)*100,3),'  0'),COL4 With Str(nVACAS(11),4),COL5 With Str(xCARGA(11),4),COL6 With IIF(nVACAS(11)>0,Str(xCARGA(11)/nVACAS(11)*100,3),'  0')
+Append Blank
+Replace CONCEPTO With DTOC(DATE()-21),COL1 With Str(xVACAS(12),4),COL2 With Str(xDETEC(12),4),COL3 With IIF(xDETEC(12)>0,Str(xDETEC(12)/xVACAS(12)*100,3),'  0'),COL4 With Str(nVACAS(12),4),COL5 With Str(xCARGA(12),4),COL6 With IIF(nVACAS(12)>0,Str(xCARGA(12)/nVACAS(12)*100,3),'  0')
+Append Blank
+Append Blank
+Replace CONCEPTO With 'Total',COL1 With Str(xVACAS(15),5),COL2 With Str(xDETEC(15),4),COL3 With IIF(xDETEC(15)>0,Str(xDETEC(15)/xVACAS(15)*100,3),'  0'),COL4 With Str(nVACAS(15),5),COL5 With Str(xCARGA(15),4),COL6 With IIF(nVACAS(15)>0,Str(xCARGA(15)/nVACAS(15)*100,3),'  0')
+*Browse
+Select REG
+Set Filter To
+Set Relation To
+RETURN
+

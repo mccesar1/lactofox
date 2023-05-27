@@ -1,0 +1,1 @@
+set sysmenu to default

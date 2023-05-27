@@ -1,0 +1,127 @@
+*TRANSFERENCIA DE DATOS DE LACTOFOX A DATAFLOW
+************************************************
+CLOSE ALL
+USE reg IN 1
+ 
+		DATAFLOW01=FCREATE('DATAFLOW01.TXT')
+		SELECT REG
+		SET ORDER TO 2
+		SET FILTER TO FB2=B
+		ww=""
+
+		*SET FILTER TO DTOC(REG.FB2)>=THISFORM.CB1.Value AND DTOC(FB2)<=THISFORM.CB2.Value 
+		
+		xTOTAL=0
+		
+		ww='CHHeader information'+chr(13)+chr(10)
+		ww=ww+'DH20186100000000080009000030800090000406000900006240009000072400090000808000900009080'+chr(13)+chr(10)
+		ww=ww+'VH201861DD      20080724190009Herd Managment System   Milk Process Computer   1.0     STK 2.0 '+chr(13)+chr(10)
+		ww=ww+'CNGeneral cow data scr'+chr(13)+chr(10)
+		ww=ww+'DN2018650090007006000900056150009000330400090005308000900028080009000300800090004408000900055080009000940200090009201000900058020000201280800090009502000900070060009000300800090003108000900032032009000440800090009601000900097080'+chr(13)+chr(10)
+		
+	   =FWRITE(DATAFLOW01,ww)
+
+		SCAN
+		 xUCEL='????????'
+		 xUINS='????????'
+		 
+		 xFNAC=SUBSTR(DTOC(FNAC),1,4)+SUBSTR(DTOC(FNAC),6,2)+SUBSTR(DTOC(FNAC),9,2)
+	 	 xFPAR=SUBSTR(DTOC(FPAR),1,4)+SUBSTR(DTOC(FPAR),6,2)+SUBSTR(DTOC(FPAR),9,2)
+		 xFSEC=SUBSTR(DTOC(FSEC),1,4)+SUBSTR(DTOC(FSEC),6,2)+SUBSTR(DTOC(FSEC),9,2)
+	 	 xABTO=SUBSTR(DTOC(ABTO),1,4)+SUBSTR(DTOC(ABTO),6,2)+SUBSTR(DTOC(ABTO),9,2)
+		
+		 IF (LEFT(STAT,1)#'I' OR LEFT(STAT,1)#'C')
+	 	 xUCEL=SUBSTR(DTOC(UCAL),1,4)+SUBSTR(DTOC(UCAL),6,2)+SUBSTR(DTOC(UCAL),9,2)
+		 ENDIF
+		 
+		 IF LEFT(STAT,1)='I' OR LEFT(STAT,1)='C'
+	 	 xUINS=SUBSTR(DTOC(UCAL),1,4)+SUBSTR(DTOC(UCAL),6,2)+SUBSTR(DTOC(UCAL),9,2)
+		 ENDIF
+		 			 	
+		 
+		
+		* EMPIEZA A ESCRIBIR LOS DATOS GENERALES
+		* --------------------------------------
+		ww=""
+		ww=ww+'VN201865'+STR(REG.ID,6)+REG.IDE+SPACE(5)+STR(REG.CORR,4)+xFNAC+xFPAR+xUINS+xFSEC+xUCEL+STR(NS,2);
+			            +SUBSTR(STAT,1,1)+STR(NP,2)+xABTO+"  "+STR(ID,6)+'????????'+'????????'+'0.00'+'????????'+chr(13)+chr(10)
+	   =FWRITE(DATAFLOW01,ww)
+	   xTOTAL=xTOTAL+1
+
+	 	ENDSCAN
+	 	
+		* EMPIEZA A ESCRIBIR LISTA DX PREÑEZ
+		* -------------------------------------
+		ww=ww+'CNAttention Record'+chr(13)+chr(10)
+		ww=ww+'DN2018640090007006000201895020000200110800002001004000020020040000200300400002004004000020050040'+chr(13)+chr(10)
+	   =FWRITE(DATAFLOW01,ww)
+	   
+	   SCAN
+	    IF REG.PALP#B
+		 xPALP=SUBSTR(DTOC(PALP),1,4)+SUBSTR(DTOC(PALP),6,2)+SUBSTR(DTOC(PALP),9,2)
+
+		ww=""
+		ww=ww+'VN201864'+STR(REG.ID,6)+'99'+xPALP+' 999'+SPACE(3)+IIF(REG.STAT="CARGA","1","2")+'????????'+' 999'+chr(13)+chr(10)
+	   =FWRITE(DATAFLOW01,ww)
+		ENDIF	
+	   ENDSCAN
+
+		* EMPIEZA A ESCRIBIR LAS DADAS DE BAJA
+		* ------------------------------------
+		ww=""
+		ww=ww+'CNSynchronization  Culled Cows ?'+chr(13)+chr(10)
+		ww=ww+'DN201862002018980100090007006000900056150002018500600020185115000900053080'+chr(13)+chr(10)
+	   =FWRITE(DATAFLOW01,ww)
+	   	 	
+	 	SET FILTER TO REG.FB2#B
+	 	SCAN
+    	 IF REG.FB2#B	
+	      xFB2=SUBSTR(DTOC(FB2),1,4)+SUBSTR(DTOC(FB2),6,2)+SUBSTR(DTOC(FB2),9,2)
+		  ww=""
+    	  ww=ww+'VN201862'+'2'+STR(REG.ID,6)+REG.IDE+SPACE(5)+STR(REG.ID,6)+'???????????????'+xFB2+chr(13)+chr(10)
+		 =FWRITE(DATAFLOW01,ww)
+		 ENDIF
+	 	ENDSCAN
+	   
+		* EMPIEZA A ESCRIBIR LISTA VETERINARIA
+		* -------------------------------------
+		ww=""
+		ww=ww+'CNVet.Check.List'+chr(13)+chr(10)
+		ww=ww+'DN2018670090007006000900034080'+chr(13)+chr(10)
+	   =FWRITE(DATAFLOW01,ww)	
+	
+	* 	SCAN
+    *	 IF REG.FB2#B	
+	 *     xFB2=SUBSTR(DTOC(FB2),1,4)+SUBSTR(DTOC(FB2),6,2)+SUBSTR(DTOC(FB2),9,2)
+	*	  ww=""
+    *	  ww=ww+'VN201862'+'2'+STR(REG.ID,6)+REG.IDE+SPACE(15)+STR(REG.ID,6)+'???????????????'+xFB2+chr(13)+chr(10)
+	*	 =FWRITE(DATAFLOW01,ww)
+	*	 ENDIF
+	 *	ENDSCAN	  
+ 
+		ww=""
+		ww=ww+'CN-------------  END OF FILE ---------------------'+chr(13)+chr(10) 	
+		ww=ww+'EN'+chr(13)+chr(10)
+		ww=ww+'ZN'+chr(13)+chr(10)
+
+	   =FWRITE(DATAFLOW01,ww)	  	   
+
+	   =FCLOSE(DATAFLOW01) 
+
+	    *THISFORM.Text1.Value=xTOTAL	   
+		
+*		THISFORM.USB01
+*		COPY FILE BANCO1.TXT TO xDIR+"\HOLST-2.TXT"
+		??CHR(7)
+*		THISFORM.MS1.Value="Archivo Generado"
+*		THISFORM.Text3.Value="HOLST-2.TXT"
+
+		
+		MODIFY FILE dataflow01.txt
+*		RETURN TO master
+		
+
+		
+
+
+

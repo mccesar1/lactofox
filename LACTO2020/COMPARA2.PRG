@@ -1,0 +1,76 @@
+SET SAFETY OFF
+SET CENTURY ON
+SET DATE YMD
+SET DEFAULT TO C:\LACTO2006\LX1
+
+
+B=CTOD("")
+BANCO1=FCREATE('BANCO1.TXT')
+
+USE CBAJA ORDER 1 IN 3 
+
+CREATE TABLE XPESA (ID n(6)) 
+APPEND FROM NOPESADAS XLS
+*BROWSE
+
+USE REG IN 2 ORDER 2
+
+SELECT REG
+SET ORDER TO 2
+SET RELATION TO CAU2 INTO CBAJA
+
+SELECT XPESA
+SET RELATION TO ID INTO REG
+
+xTOTAL=0
+
+	SCAN 
+			ww=""
+			ww=ww+PADR(XPESA.ID,6,' ')
+			ww=ww+SPACE(1)
+	
+			IF XPESA.ID=REG.ID
+	
+			xFB2=DTOC(REG.FB2)
+			xFS2=DTOC(REG.FSEC)
+			**********************
+			DO CASE
+				CASE REG.FB2#B
+					ww=ww+REG.MOT2+SPACE(8)+xFB2
+					
+				CASE REG.FSEC#B
+					ww=ww+'SECA       '+SPACE(3)+xFS2
+				
+				OTHERWISE
+	                ww=ww+'NO SE PESO'			
+			ENDCASE
+			**********************	
+	
+			*ww=ww+SPACE(2)
+			*ww=ww+STR(REG.CAU2,3) &&+SPACE(2)+CBAJA.CNOM
+			ww=ww+SPACE(3)
+			ELSE
+			ww=ww+'NO EXISTE'
+			ENDIF
+
+
+			ww=ww+chr(13)+chr(10)
+
+						
+	   =FWRITE(BANCO1,ww)
+	   xTOTAL=xTOTAL+1
+
+	   
+	 	ENDSCAN
+	 	
+	   =FCLOSE(BANCO1) 
+	   
+		COPY FILE BANCO1.TXT TO "C:\LACTO2006\ARCHIVOS\HOLST-013.TXT"
+		??CHR(7)
+		
+		MODIFY FILE C:\lacto2006\archivos\holst-013
+
+		CLOSE DATABASES
+		SET DEFAULT TO C:\LACTO2006
+		CLOSE ALL
+		RETURN		

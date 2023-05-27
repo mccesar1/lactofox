@@ -1,0 +1,853 @@
+PARAMETERS NTIT,XDSC
+xNVE=0
+NTIT2=""
+WLI=60
+xPRINTER=GETPRINTER()
+
+If Empty(xPRINTER)
+Else
+Set PRINTER TO NAME(xPRINTER)
+	Set Console OFF
+Set Printer ON &&PROMPT= Para Abrir Cuadro de Dialogo de Propiedades de Impresora
+SET PRINTER FONT 'Courier New',8 Style 'N'
+
+  * INICIO DEL REPORTE
+  * ---------------	
+  Do Case 
+Case nREP=18
+	DO R18 With 2,WLI,36,Str(ID,5)+Str(CORR,2)+Str(DPR,4)+Str(PRM,5,1)+STAT+Str(NP,2)
+
+Case nREP=19
+	DO R18 With 2,WLI,36,Str(ID,5)+Str(CORR,2)+Str(DPR,4)+Str(PRM,5,1)+STAT+Str(NP,2)
+
+Case nREP=23 Or nREP=24
+	SET PRINTER FONT 'Courier New',10 Style 'N'
+	DO R23 With 4,WLI,18,Str(ID,5)+Str(CORR,3)+Str(PRM,5,1)
+
+Case nREP=25
+	SET PRINTER FONT 'Courier New',9 Style 'N'
+	DO R25 With 4,WLI,18,Str(ID,5)+Str(CORR,3)+Str(DSC,4)
+
+Case nREP=26
+	Calculate CNT() To NT
+	SET PRINTER FONT 'Courier New',9 Style 'N'
+	
+	DO R26 With 5,WLI,14,Str(ID,5)+Str(CORR,3)
+
+Case nREP=48 Or nREP=126 Or nREP=207
+	SET PRINTER FONT 'Courier New',10 Style 'N'
+	Select DISPO
+	Go Top
+	DO R48 With 9,WLI,7,Str(ID,5)
+
+Case nREP=116
+	SET PRINTER FONT 'Courier New',10 Style 'N'
+	DO R116 With 4,WLI,18,Str(ID,5)+Str(CORR,3)+Str((DATE()-FNAC)/30.4,5,1)
+
+Case nREP=124 OR nREP=151 OR nREP=218
+	SET PRINTER FONT 'Courier New',10 Style 'N'
+	DO R48 With 9,WLI,7,Str(ID,5)
+
+Case nREP=181
+SET PRINTER FONT 'Courier New',8 Style 'N'
+DO R181 With 4,WLI,18,Str(ID,5)+Str(CORR,3)+Str((DATE()-FNAC)/30.4,5,1)
+
+Case nREP=2220
+	DO R17 With 4,WLI,18,Str(ID,5)+Str(CORR,3)+Str((DATE()-FNAC)/30.4,5,1)
+ 
+  EndCase	  
+
+  * ---------------
+  * FIN DEL REPORTE
+  Set Printer OFF
+  Set Console ON
+  Close Printer
+EndIf
+
+
+PROCEDURE R7  && Reporte de Pruebas TB
+*-------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() &&
+?'  Rancho   : '+Q36+'   '+nom 
+?'  Area     : CRIANZA'
+?'  Reporte  : '+NTIT
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(70)+[DAIRYFOX]
+?'  Periodo  : '+NTIT2+"  "+xtit
+?'  '+REPLI(CHR(254),94)
+?
+?'      ID  Fecha   Tipo Res             ID  Fecha   Tipo Res             ID  Fecha   Tipo Res'
+?'  '+REPLI('-',94)
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+if id>0
+?space(2),LEFT(STR(ID,5,0)+'  '+DTOC(FPU)+'  '+TIPO+'   '+RES,COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+if id>0
+??space(2),LEFT(STR(ID,5,0)+'  '+DTOC(FPU)+'  '+TIPO+'   '+RES,COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI(CHR(254),94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?
+?'  '+REPLI(CHR(254),94)
+?
+?'   TOTAL = '+STR(NVAC,4)
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+CLOS DATA
+Return
+
+
+PROCEDURE R17
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() 
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : VIENTRES'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  '+REPLI('-',94)
+?
+?'      ID  Enf Lote             ID  Enf Lote             ID  Enf Lote             ID  Enf Lote'        
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?space(2),LEFT(STR(ID,5)+'   '+STR(ENF,2)+'   '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??SPACE(2),LEFT(STR(ID,5)+'   '+STR(ENF,2)+'   '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'   TOTAL = '+STR(NVAC,4)
+?'   NOTA: Incluye Vientres esten en Agenda de Hospital.'
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+
+PROCEDURE R18
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() 
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : VIENTRES'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  Periodo  : Rango de '+Alltrim(Str(FREPS.T1.Value,5,1))+' - '+Alltrim(Str(FREPS.T2.Value,5,1))
+?'  '+REPLI('-',94)
+?
+?'      ID Lote    DEL  Leche Estado  LN                   ID Lote    DEL  Leche Estado  LN'
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?space(2),LEFT(STR(ID,5)+'  '+STR(CORR,3)+'   '+STR(DPR,4)+'  '+STR(PRM,5,1)+'  '+STAT+'  '+STR(NP,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??space(2),LEFT(STR(ID,5)+'  '+STR(CORR,3)+'   '+STR(DPR,4)+'  '+STR(PRM,5,1)+'  '+STAT+'  '+STR(NP,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'   TOTAL = '+STR(NVAC,4)
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+PROCEDURE R19
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() 
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : VIENTRES'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  '+REPLI('-',94)
+?
+?'      ID  Enf Lote             ID  Enf Lote             ID  Enf Lote             ID  Enf Lote'        
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?space(2),LEFT(STR(ID,5)+'   '+STR(ENF,2)+'   '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??SPACE(2),LEFT(STR(ID,5)+'   '+STR(ENF,2)+'   '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'   TOTAL = '+STR(NVAC,4)
+?'   NOTA: Incluye Vientres esten en Agenda de Hospital.'
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+PROCEDURE R23
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() 
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : VIENTRES'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  '+REPLI('-',94)
+?
+?'      ID Leche Lote           ID Leche Lote           ID Leche Lote           ID Leche Lote'        
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?space(2),LEFT(STR(ID,5)+'  '+STR(PRM,5,1)+'  '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??SPACE(2),LEFT(STR(ID,5)+'  '+STR(PRM,5,1)+'  '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'   TOTAL = '+STR(NVAC,4)
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+
+PROCEDURE R25
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() 
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : VIENTRES'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  '+REPLI('-',94)
+?
+?'      ID   DSC Lote           ID   DSC Lote           ID   DSC Lote           ID   DSC Lote'        
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?space(2),LEFT(STR(ID,5)+'  '+STR(DSC,4)+'  '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??SPACE(2),LEFT(STR(ID,5)+'  '+STR(DSC,4)+'  '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'   TOTAL = '+STR(NVAC,4)+'           Promedio DSC '+STR(xDSC,5,1)
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+PROCEDURE R26
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT()
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : VIENTRES'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  Periodo  : LOTE='+Str(FREPS5.SP1.Value,3)
+?'  '+REPLI('-',94)
+?
+?'      ID   LOTE          ID   LOTE          ID   LOTE          ID   LOTE          ID   LOTE'
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?SPACE(2),LEFT(STR(ID,5,0)+'  '+STR(CORR,3),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??SPACE(2),LEFT(STR(ID,5)+'  '+STR(CORR,3),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'  TOTAL       : '+STR(NT,4)      
+?'  '+REPLI('-',94)
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+PROCEDURE R27
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() &&
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : VIENTRES'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  Periodo  : LOTE='+Str(FREPS.CB1.Value,3)
+?'  '+REPLI('-',94)
+?
+?'      ID   DEL  Leche Estado  DUC  COND                ID   DEL  Leche Estado  DUC  COND'
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?space(2),LEFT(STR(ID,5,0)+'  '+STR(DPR,4)+'  '+STR(PRM,4,1)+'  '+STAT+'  '+STR(DIA,4)+'   '+STR(CONDC,3,1),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??space(2),LEFT(STR(ID,5,0)+'  '+STR(DPR,4)+'  '+STR(PRM,4,1)+'  '+STAT+'  '+STR(DIA,4)+'   '+STR(CONDC,3,1),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'  TOTAL       : '+STR(NT,4)+'          PROMEDIOS     :        PICO  :'             
+?'  '+REPLI('-',94)
+?'  Inseminadas : '+STR(NI,4)+'  '+Str(NI/NT*100,4,1)+'%   Dias en Leche : '+Str(XDEL,3)+'    Dias  :'+Str(XDPIC,3)
+?'  Gestantes   : '+STR(NP,4)+'  '+Str(NP/NT*100,4,1)+'%   Produccion    : '+Str(XPRO,5,1)+'  Leche :'+Str(XPLAC,5,1)
+?'  Abiertas    : '+STR(NA,4)+'  '+Str(NA/NT*100,4,1)+'%   Condicion     : '+Str(XCOND,5,1) 
+
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+
+PROCEDURE R36
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+NHE=0
+NMA=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() 
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : VIENTRES'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  Periodo  : De '+FREPS.CB1.Value+' A '+FREPS.CB2.Value
+
+?'  '+REPLI('-',94)
+?
+?'      ID   Fecha      Cria   IDC1   IDC2  LN            ID   Fecha      Cria   IDC1   IDC2  LN'
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?SPACE(2),LEFT(STR(ID,5)+'   '+DTOC(FPAR)+'   '+SEXC+'  '+Str(IDC,5)+'  '+Str(IDC2,5)+'  '+Str(NP,2)+' '+OBS,COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+	Do Case
+		Case SEXC='HE'
+			NHE=NHE+1
+		Case SEXC='HH'
+			NHE=NHE+2
+		Case SEXC='MA'
+			NMA=NMA+1
+		Case SEXC='MM'
+			NMA=NMA+2
+		Case SEXC='MH'
+			NHE=NHE+1
+			NMA=NMA+1
+	EndCase	
+Endif
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??SPACE(2),LEFT(STR(ID,5)+'   '+DTOC(FPAR)+'   '+SEXC+'  '+Str(IDC,5)+'  '+Str(IDC2,5)+'  '+Str(NP,2)+' '+OBS,COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+	Do Case
+		Case SEXC='HE'
+			NHE=NHE+1
+		Case SEXC='HH'
+			NHE=NHE+2
+		Case SEXC='MA'
+			NMA=NMA+1
+		Case SEXC='MM'
+			NMA=NMA+2
+		Case SEXC='MH'
+			NHE=NHE+1
+			NMA=NMA+1
+	EndCase	
+EndiF
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'   TOTAL = '+STR(NVAC,4)+'   '+'HEMBRAS  '+Str(NHE,3)+'   MACHOS  '+Str(NMA,3)
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+PROCEDURE R48
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT()
+?'  Hato     : '+Q36+'   '+nom
+?'  Area     : '+xAREA
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  Periodo  : '+xTIT2
+
+?'  '+REPLI('-',94)
+?'      ID        ID        ID        ID        ID        ID        ID        ID        ID'        
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?space(2),LEFT(STR(ID,5),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<RECCOUNT()
+SKIP ROWS
+If ID>0
+??SPACE(2),LEFT(STR(ID,5),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT   && NUEVO 06012021
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'   TOTAL = '+STR(NVAC,4)
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+
+PROCEDURE R116
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() 
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : CRIANZA'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  '+REPLI('-',94)
+?
+?'      ID  Edad Lote           ID  Edad Lote           ID  Edad Lote           ID  Edad Lote'        
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?space(2),LEFT(STR(ID,5)+' '+STR((Date()-FNAC)/30.4,5,1)+'   '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??SPACE(2),LEFT(STR(ID,5)+' '+STR((Date()-FNAC)/30.4,5,1)+'   '+STR(CORR,2),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'   TOTAL = '+STR(NVAC,4)
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+
+PROCEDURE R181
+*---------------------------------------------------------------------*
+PARAMETERS COLS,ROWS,COLW,FIELD,NTIT4
+DO WHILE MOD(RECCOUNT(),COLS) # 0
+APPE BLANK
+ENDD
+GO TOP
+PGCOUNT=1
+PRINTED=0
+NVAC=0
+SET CONS OFF
+SET PRIN ON
+DO WHILE PRINTED<RECCOUNT() 
+?'  Hato     : '+Q36+'   '+nom 
+?'  Area     : MACHOS'
+?'  Reporte  : '+UPPER(NTIT)
+?'  Fecha    : '+DTOC(DATE())+'  Hora : '+TIME()
+?'  Pagina   : '+STR(PGCOUNT,2,0)+space(65)+[DAIRYFOX v.4.0]
+?'  '+REPLI('-',94)
+?
+?'      ID  Edad Lote            ID  Edad Lote            ID  Edad Lote            ID  Edad Lote'        
+?'  '+REPLI('-',94)
+
+ONTHISPAGE=MIN(ROWS*COLS,RECCOUNT()-PRINTED)
+ROWS=MIN(ROWS,(ONTHISPAGE/COLS))
+THISROW=1
+DO WHILE THISROW<=ROWS .AND. PRINTED<=RECCOUNT()
+THISCOL=1
+If ID>0
+?space(2),LEFT(STR(ID,5)+' '+STR((Date()-FNAC)/30.4,5,1)+'   '+STR(CORR,3),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+PRINTED=PRINTED+1
+DO WHILE THISCOL<COLS .AND. PRINTED<=RECCOUNT()
+SKIP ROWS
+If ID>0
+??SPACE(2),LEFT(STR(ID,5)+' '+STR((Date()-FNAC)/30.4,5,1)+'   '+STR(CORR,3),COLW)+SPACE(MAX(0,COLW-LEN(FIELD)))
+NVAC=NVAC+1
+endi
+THISCOL=THISCOL+1
+PRINTED=PRINTED+1
+ENDD
+THISROW=THISROW+1
+SKIP (((COLS-1)*ROWS)-1)*-1
+
+IF THISROW-1=ROWS .AND. PRINTED<RECCOUNT()
+?'  '+REPLI('-',94)
+EJECT
+ENDI
+
+IF PRINTED=RECCOUNT()
+?'  '+REPLI('-',94)
+?'   TOTAL = '+STR(NVAC,4)
+ENDI
+ENDD
+*EJECT
+PGCOUNT=PGCOUNT+1
+SKIP ((COLS-1)*ROWS)
+ENDD
+RETURN
+

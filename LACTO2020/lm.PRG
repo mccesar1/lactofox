@@ -1,0 +1,72 @@
+PUBLIC Q3
+Q3=1
+B=CTOD("")
+
+USE C:\lacto2006\lx1\agenda IN 2
+USE C:\lacto2006\lx1\reg  IN 1
+
+		SELECT AGENDA
+		SET ORDER TO 2
+
+		SELECT REG
+		SET ORDER TO 2
+		SET RELATION TO ID INTO AGENDA 
+
+		SCAN
+		REPLACE CODE3 WITH 0
+		
+		DO CASE
+				* Agenda
+				* ------
+				CASE REG.ID=AGENDA.ID 
+				
+				SELECT AGENDA
+					SCAN WHILE REG.ID=AGENDA.ID
+						IF AGENDA.FECHA=DATE() AND AGENDA.AGN<9
+						REPLACE REG.CODE3 WITH 3
+						ENDIF
+					ENDSCAN
+				SELECT REG
+				
+				* Frescas
+				* -------
+				CASE NP>0 AND DATE()-FPAR>=Q3 AND STAT=[FRESC] AND FB2=B
+				REPLACE CODE3 WITH 1
+				
+				* Revision Veterinaria
+				* --------------------
+				CASE NP>0 AND STAT!=[CARGA] AND STAT!=[INSEM]AND STAT!=[FRESC] AND UCAL+24<DATE() AND FTXR<DATE() AND PSV#'S' AND FB2=B
+				REPLACE CODE3 WITH 2
+				
+				* Dx Preñez
+				* ---------
+				CASE NP>0 AND NS>0 AND DATE()-UCAL>=Q7 AND STAT='INSEM' AND FB2=B
+				REPLACE CODE3 WITH 6
+
+				* Secar x Gestacion
+				* -----------------
+				CASE NP>0 AND DATE()-UCAL>=(Q39-Q35) AND STAT='CARGA' AND FSEC=B AND FB2=B
+				REPLACE CODE3 WITH 7
+				
+				* Secar x Baja Produccion
+				* -----------------------
+				CASE NP>0 AND PRM<=(Q1/Q2) AND STAT='CARGA' AND FSEC=B AND FB2=B
+				REPLACE CODE3 WITH 8
+				
+				* Cambio a Reto
+				* -------------
+				CASE NP>0 AND FSEC#B AND STAT='CARGA' AND FB2=B AND FRETO=B AND DATE()-UCAL>=(Q39-Q40)
+				REPLACE CODE3 WITH 9			
+		
+				OTHERWISE
+				REPLACE CODE3 WITH 0
+		
+		ENDCASE		
+		ENDSCAN
+			
+		SELECT REG
+		BROWSE FIELDS ID,STAT,CODE3,x=DATE()-UCAL FOR NP>0 AND CODE3>0
+		*CLOSE DATABASES
+
+		
+		RETURN

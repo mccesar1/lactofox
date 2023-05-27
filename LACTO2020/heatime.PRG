@@ -1,0 +1,12 @@
+CLEAR
+CLEAR ALL
+SET DATE DMY
+CREATE HEATIME ID n(5)
+USE HEATIME Exclusive
+Index On ID To HEATIME
+zap
+Append From C:\HEAT\LASTHEAT.TXT Delimited
+Set Date ANSI
+Go Top
+Browse
+Close All

@@ -1,0 +1,33 @@
+*       *********************************************************
+*       *                                                         
+*       * 2006.05.10            MENUC01.MPR             18:46:55  
+*       *                                                         
+*       *********************************************************
+*       *                                                         
+*       * Ing. Raymundo J. Rodriguez D.                           
+*       *                                                         
+*       * Copyright (C) 2006 Agroplus SA de CV                    
+*       * Avenida 2a Norte 6                                      
+*       * Delicias, Chih  33000                                     
+*       * Mexico                                            
+*       *                                                         
+*       * Descripción:                                            
+*       * Este PROGRAMA lo ha generado automáticamente GENMENU.    
+*       *                                                         
+*       *********************************************************
+
+
+*       *********************************************************
+*       *                                                         
+*       *                    Definición de menú                   
+*       *                                                         
+*       *********************************************************
+*
+
+DEFINE POPUP menúcontex SHORTCUT RELATIVE FROM MROW(),MCOL()
+DEFINE BAR 1 OF menúcontex PROMPT "\<Registro" ;
+	KEY CTRL+R, "CTRL+R"
+DEFINE BAR 2 OF menúcontex PROMPT "\-"
+DEFINE BAR 3 OF menúcontex PROMPT "\<General"
+
+ACTIVATE POPUP menúcontex

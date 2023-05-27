@@ -1,0 +1,2376 @@
+AlproIso log file.
+DeLaval International AB. (ÜA,BO,TKj/MES 2003)
+
+Farmname: ESTABLO agroplus    
+Alpro date: 20091107
+
+AlproIso Link version: 660     
+AlproSync version: 6.60
+Current DB version: 6.400
+
+   Note in line:     2 The Excel switch is activated. Out-file uses TAB separated columns.
+   Note in line:     2 ISO 11787 standard data dictionary is recognized and parsed.
+  Error in line:     8 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:     8 Cow     10 introduced!
+  Error in line:     8 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:     8 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:    10 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:    10 Cow     12 introduced!
+  Error in line:    10 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:    10 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:    14 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:    14 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:    30 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:    30 Cow    105 introduced!
+  Error in line:    30 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:    30 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:   520 Cow   3485 introduced!
+   Note in line:   522 Cow   3489 introduced!
+   Note in line:   524 Cow   3490 introduced!
+   Note in line:   526 Cow   3493 introduced!
+   Note in line:   528 Cow   3494 introduced!
+   Note in line:   530 Cow   3498 introduced!
+   Note in line:   532 Cow   3499 introduced!
+   Note in line:   534 Cow   3500 introduced!
+   Note in line:   536 Cow   3502 introduced!
+   Note in line:   538 Cow   3505 introduced!
+   Note in line:   540 Cow   3508 introduced!
+   Note in line:   542 Cow   3510 introduced!
+   Note in line:   544 Cow   3513 introduced!
+   Note in line:   546 Cow   3515 introduced!
+   Note in line:   548 Cow   3517 introduced!
+   Note in line:   550 Cow   3519 introduced!
+   Note in line:   552 Cow   3522 introduced!
+   Note in line:   554 Cow   3523 introduced!
+   Note in line:   556 Cow   3526 introduced!
+   Note in line:   558 Cow   3530 introduced!
+   Note in line:   560 Cow   3534 introduced!
+   Note in line:   562 Cow   3538 introduced!
+   Note in line:   564 Cow   3540 introduced!
+   Note in line:   566 Cow   3543 introduced!
+   Note in line:   568 Cow   3546 introduced!
+   Note in line:   570 Cow   3547 introduced!
+   Note in line:   572 Cow   3548 introduced!
+   Note in line:   574 Cow   3552 introduced!
+   Note in line:   576 Cow   3557 introduced!
+   Note in line:   578 Cow   3562 introduced!
+   Note in line:   580 Cow   3564 introduced!
+   Note in line:   582 Cow   3565 introduced!
+   Note in line:   584 Cow   3579 introduced!
+   Note in line:   586 Cow   3582 introduced!
+   Note in line:   588 Cow   3583 introduced!
+   Note in line:   590 Cow   3584 introduced!
+   Note in line:   592 Cow   3591 introduced!
+   Note in line:   594 Cow   3594 introduced!
+   Note in line:   596 Cow   3596 introduced!
+   Note in line:   598 Cow   3598 introduced!
+   Note in line:   600 Cow   3601 introduced!
+   Note in line:   602 Cow   3604 introduced!
+   Note in line:   604 Cow   3607 introduced!
+   Note in line:   606 Cow   3612 introduced!
+   Note in line:   608 Cow   3621 introduced!
+   Note in line:   610 Cow   3626 introduced!
+   Note in line:   612 Cow   3629 introduced!
+   Note in line:   614 Cow   3631 introduced!
+   Note in line:   616 Cow   3634 introduced!
+   Note in line:   618 Cow   3635 introduced!
+   Note in line:   620 Cow   3637 introduced!
+   Note in line:   622 Cow   3640 introduced!
+   Note in line:   624 Cow   3641 introduced!
+   Note in line:   626 Cow   3644 introduced!
+   Note in line:   628 Cow   3647 introduced!
+   Note in line:   630 Cow   3648 introduced!
+   Note in line:   632 Cow   3649 introduced!
+   Note in line:   634 Cow   3654 introduced!
+   Note in line:   636 Cow   3662 introduced!
+   Note in line:   638 Cow   3664 introduced!
+   Note in line:   640 Cow   3665 introduced!
+   Note in line:   642 Cow   3670 introduced!
+   Note in line:   644 Cow   3672 introduced!
+   Note in line:   646 Cow   3673 introduced!
+   Note in line:   648 Cow   3675 introduced!
+   Note in line:   650 Cow   3676 introduced!
+   Note in line:   652 Cow   3678 introduced!
+   Note in line:   654 Cow   3683 introduced!
+   Note in line:   656 Cow   3684 introduced!
+   Note in line:   658 Cow   3689 introduced!
+   Note in line:   660 Cow   3694 introduced!
+   Note in line:   662 Cow   3699 introduced!
+   Note in line:   664 Cow   3705 introduced!
+   Note in line:   666 Cow   3712 introduced!
+   Note in line:   668 Cow   3715 introduced!
+   Note in line:   670 Cow   3729 introduced!
+   Note in line:   672 Cow   3733 introduced!
+   Note in line:   674 Cow   3741 introduced!
+   Note in line:   676 Cow   3742 introduced!
+   Note in line:   678 Cow   3743 introduced!
+   Note in line:   680 Cow   3745 introduced!
+   Note in line:   682 Cow   3746 introduced!
+   Note in line:   684 Cow   3752 introduced!
+   Note in line:   686 Cow   3758 introduced!
+   Note in line:   688 Cow   3759 introduced!
+   Note in line:   690 Cow   3760 introduced!
+   Note in line:   692 Cow   3767 introduced!
+   Note in line:   694 Cow   3770 introduced!
+   Note in line:   696 Cow   3772 introduced!
+   Note in line:   698 Cow   3786 introduced!
+   Note in line:   700 Cow   3788 introduced!
+   Note in line:   702 Cow   3796 introduced!
+   Note in line:   704 Cow   3799 introduced!
+   Note in line:   706 Cow   3800 introduced!
+   Note in line:   708 Cow   3811 introduced!
+   Note in line:   710 Cow   3815 introduced!
+   Note in line:   712 Cow   3816 introduced!
+   Note in line:   714 Cow   3823 introduced!
+   Note in line:   716 Cow   3826 introduced!
+   Note in line:   718 Cow   3828 introduced!
+   Note in line:   720 Cow   3830 introduced!
+   Note in line:   722 Cow   3831 introduced!
+   Note in line:   724 Cow   3835 introduced!
+   Note in line:   726 Cow   3836 introduced!
+   Note in line:   728 Cow   3838 introduced!
+   Note in line:   730 Cow   3841 introduced!
+   Note in line:   732 Cow   3842 introduced!
+   Note in line:   734 Cow   3849 introduced!
+   Note in line:   736 Cow   3853 introduced!
+   Note in line:   738 Cow   3855 introduced!
+   Note in line:   740 Cow   3857 introduced!
+   Note in line:   742 Cow   3858 introduced!
+   Note in line:   744 Cow   3859 introduced!
+   Note in line:   746 Cow   3861 introduced!
+   Note in line:   748 Cow   3865 introduced!
+   Note in line:   750 Cow   3871 introduced!
+   Note in line:   752 Cow   3879 introduced!
+   Note in line:   754 Cow   3881 introduced!
+   Note in line:   756 Cow   3883 introduced!
+   Note in line:   758 Cow   3885 introduced!
+   Note in line:   760 Cow   3886 introduced!
+   Note in line:   762 Cow   3889 introduced!
+   Note in line:   764 Cow   3890 introduced!
+   Note in line:   766 Cow   3891 introduced!
+   Note in line:   768 Cow   3893 introduced!
+   Note in line:   770 Cow   3895 introduced!
+   Note in line:   772 Cow   3897 introduced!
+   Note in line:   774 Cow   3899 introduced!
+   Note in line:   776 Cow   3903 introduced!
+   Note in line:   778 Cow   3908 introduced!
+   Note in line:   780 Cow   3912 introduced!
+   Note in line:   782 Cow   3919 introduced!
+   Note in line:   784 Cow   3926 introduced!
+   Note in line:   786 Cow   3928 introduced!
+   Note in line:   788 Cow   3929 introduced!
+   Note in line:   790 Cow   3931 introduced!
+   Note in line:   792 Cow   3933 introduced!
+   Note in line:   794 Cow   3934 introduced!
+   Note in line:   796 Cow   3936 introduced!
+   Note in line:   798 Cow   3939 introduced!
+   Note in line:   800 Cow   3940 introduced!
+   Note in line:   802 Cow   3943 introduced!
+   Note in line:   804 Cow   3944 introduced!
+   Note in line:   806 Cow   3945 introduced!
+   Note in line:   808 Cow   3948 introduced!
+   Note in line:   810 Cow   3949 introduced!
+   Note in line:   812 Cow   3950 introduced!
+   Note in line:   814 Cow   3952 introduced!
+   Note in line:   816 Cow   3957 introduced!
+   Note in line:   818 Cow   3961 introduced!
+   Note in line:   820 Cow   3964 introduced!
+   Note in line:   822 Cow   3970 introduced!
+   Note in line:   824 Cow   3977 introduced!
+   Note in line:   826 Cow   3981 introduced!
+   Note in line:   828 Cow   3989 introduced!
+   Note in line:   830 Cow   3993 introduced!
+   Note in line:   832 Cow   3994 introduced!
+   Note in line:   834 Cow   3995 introduced!
+   Note in line:   836 Cow   3996 introduced!
+   Note in line:   838 Cow   3997 introduced!
+   Note in line:   840 Cow   3998 introduced!
+   Note in line:   842 Cow   4010 introduced!
+   Note in line:   844 Cow   4012 introduced!
+   Note in line:   846 Cow   4017 introduced!
+   Note in line:   848 Cow   4019 introduced!
+   Note in line:   850 Cow   4025 introduced!
+   Note in line:   852 Cow   4027 introduced!
+   Note in line:   854 Cow   4035 introduced!
+   Note in line:   856 Cow   4038 introduced!
+   Note in line:   858 Cow   4039 introduced!
+   Note in line:   860 Cow   4041 introduced!
+   Note in line:   862 Cow   4042 introduced!
+   Note in line:   864 Cow   4046 introduced!
+   Note in line:   866 Cow   4049 introduced!
+   Note in line:   868 Cow   4050 introduced!
+   Note in line:   870 Cow   4063 introduced!
+   Note in line:   872 Cow   4064 introduced!
+   Note in line:   874 Cow   4066 introduced!
+   Note in line:   876 Cow   4073 introduced!
+   Note in line:   878 Cow   4074 introduced!
+   Note in line:   880 Cow   4076 introduced!
+   Note in line:   882 Cow   4079 introduced!
+   Note in line:   884 Cow   4080 introduced!
+   Note in line:   886 Cow   4081 introduced!
+   Note in line:   888 Cow   4084 introduced!
+   Note in line:   890 Cow   4088 introduced!
+   Note in line:   892 Cow   4090 introduced!
+   Note in line:   894 Cow   4095 introduced!
+   Note in line:   896 Cow   4098 introduced!
+   Note in line:   898 Cow   4101 introduced!
+   Note in line:   900 Cow   4102 introduced!
+   Note in line:   902 Cow   4110 introduced!
+   Note in line:   904 Cow   4111 introduced!
+   Note in line:   906 Cow   4116 introduced!
+   Note in line:   908 Cow   4118 introduced!
+   Note in line:   910 Cow   4120 introduced!
+   Note in line:   912 Cow   4123 introduced!
+   Note in line:   914 Cow   4124 introduced!
+   Note in line:   916 Cow   4126 introduced!
+   Note in line:   918 Cow   4127 introduced!
+   Note in line:   920 Cow   4129 introduced!
+   Note in line:   922 Cow   4130 introduced!
+   Note in line:   924 Cow   4132 introduced!
+   Note in line:   926 Cow   4135 introduced!
+   Note in line:   928 Cow   4140 introduced!
+   Note in line:   930 Cow   4141 introduced!
+   Note in line:   932 Cow   4144 introduced!
+   Note in line:   934 Cow   4148 introduced!
+   Note in line:   936 Cow   4150 introduced!
+   Note in line:   938 Cow   4151 introduced!
+   Note in line:   940 Cow   4154 introduced!
+   Note in line:   942 Cow   4156 introduced!
+   Note in line:   944 Cow   4158 introduced!
+   Note in line:   946 Cow   4159 introduced!
+   Note in line:   948 Cow   4161 introduced!
+   Note in line:   950 Cow   4164 introduced!
+   Note in line:   952 Cow   4168 introduced!
+   Note in line:   954 Cow   4170 introduced!
+   Note in line:   956 Cow   4173 introduced!
+   Note in line:   958 Cow   4176 introduced!
+   Note in line:   960 Cow   4178 introduced!
+   Note in line:   962 Cow   4180 introduced!
+   Note in line:   964 Cow   4185 introduced!
+   Note in line:   966 Cow   4187 introduced!
+   Note in line:   968 Cow   4189 introduced!
+   Note in line:   970 Cow   4192 introduced!
+   Note in line:   972 Cow   4198 introduced!
+   Note in line:   974 Cow   4199 introduced!
+   Note in line:   976 Cow   4205 introduced!
+   Note in line:   978 Cow   4209 introduced!
+   Note in line:   980 Cow   4210 introduced!
+   Note in line:   982 Cow   4211 introduced!
+   Note in line:   984 Cow   4212 introduced!
+   Note in line:   986 Cow   4215 introduced!
+   Note in line:   988 Cow   4220 introduced!
+   Note in line:   990 Cow   4225 introduced!
+   Note in line:   992 Cow   4226 introduced!
+   Note in line:   994 Cow   4228 introduced!
+   Note in line:   996 Cow   4229 introduced!
+   Note in line:   998 Cow   4230 introduced!
+   Note in line:  1000 Cow   4232 introduced!
+   Note in line:  1002 Cow   4233 introduced!
+   Note in line:  1004 Cow   4239 introduced!
+   Note in line:  1006 Cow   4240 introduced!
+   Note in line:  1008 Cow   4243 introduced!
+   Note in line:  1010 Cow   4244 introduced!
+   Note in line:  1012 Cow   4247 introduced!
+   Note in line:  1014 Cow   4249 introduced!
+   Note in line:  1016 Cow   4250 introduced!
+   Note in line:  1018 Cow   4256 introduced!
+   Note in line:  1020 Cow   4257 introduced!
+   Note in line:  1022 Cow   4261 introduced!
+   Note in line:  1024 Cow   4262 introduced!
+   Note in line:  1026 Cow   4263 introduced!
+   Note in line:  1028 Cow   4264 introduced!
+   Note in line:  1030 Cow   4265 introduced!
+   Note in line:  1032 Cow   4267 introduced!
+   Note in line:  1034 Cow   4268 introduced!
+   Note in line:  1036 Cow   4269 introduced!
+   Note in line:  1038 Cow   4270 introduced!
+   Note in line:  1040 Cow   4272 introduced!
+   Note in line:  1042 Cow   4273 introduced!
+   Note in line:  1044 Cow   4277 introduced!
+   Note in line:  1046 Cow   4278 introduced!
+   Note in line:  1048 Cow   4281 introduced!
+   Note in line:  1050 Cow   4285 introduced!
+   Note in line:  1052 Cow   4286 introduced!
+   Note in line:  1054 Cow   4291 introduced!
+   Note in line:  1056 Cow   4295 introduced!
+   Note in line:  1058 Cow   4300 introduced!
+   Note in line:  1060 Cow   4302 introduced!
+   Note in line:  1062 Cow   4304 introduced!
+   Note in line:  1064 Cow   4305 introduced!
+   Note in line:  1066 Cow   4307 introduced!
+   Note in line:  1068 Cow   4309 introduced!
+   Note in line:  1070 Cow   4310 introduced!
+   Note in line:  1072 Cow   4312 introduced!
+   Note in line:  1074 Cow   4313 introduced!
+   Note in line:  1076 Cow   4314 introduced!
+   Note in line:  1078 Cow   4316 introduced!
+   Note in line:  1080 Cow   4317 introduced!
+   Note in line:  1082 Cow   4319 introduced!
+   Note in line:  1084 Cow   4324 introduced!
+   Note in line:  1086 Cow   4326 introduced!
+   Note in line:  1088 Cow   4327 introduced!
+   Note in line:  1090 Cow   4329 introduced!
+   Note in line:  1092 Cow   4333 introduced!
+   Note in line:  1094 Cow   4334 introduced!
+   Note in line:  1096 Cow   4336 introduced!
+   Note in line:  1098 Cow   4338 introduced!
+   Note in line:  1100 Cow   4340 introduced!
+   Note in line:  1102 Cow   4345 introduced!
+   Note in line:  1104 Cow   4347 introduced!
+   Note in line:  1106 Cow   4349 introduced!
+   Note in line:  1108 Cow   4354 introduced!
+   Note in line:  1110 Cow   4355 introduced!
+   Note in line:  1112 Cow   4356 introduced!
+   Note in line:  1114 Cow   4357 introduced!
+   Note in line:  1116 Cow   4359 introduced!
+   Note in line:  1118 Cow   4361 introduced!
+   Note in line:  1120 Cow   4362 introduced!
+   Note in line:  1122 Cow   4364 introduced!
+   Note in line:  1124 Cow   4365 introduced!
+   Note in line:  1126 Cow   4368 introduced!
+   Note in line:  1128 Cow   4369 introduced!
+   Note in line:  1130 Cow   4370 introduced!
+   Note in line:  1132 Cow   4372 introduced!
+   Note in line:  1134 Cow   4373 introduced!
+   Note in line:  1136 Cow   4375 introduced!
+   Note in line:  1138 Cow   4376 introduced!
+   Note in line:  1140 Cow   4377 introduced!
+   Note in line:  1142 Cow   4378 introduced!
+   Note in line:  1144 Cow   4379 introduced!
+   Note in line:  1146 Cow   4380 introduced!
+   Note in line:  1148 Cow   4385 introduced!
+   Note in line:  1150 Cow   4389 introduced!
+   Note in line:  1152 Cow   4393 introduced!
+   Note in line:  1154 Cow   4396 introduced!
+   Note in line:  1156 Cow   4397 introduced!
+   Note in line:  1158 Cow   4398 introduced!
+   Note in line:  1160 Cow   4399 introduced!
+   Note in line:  1162 Cow   4400 introduced!
+   Note in line:  1164 Cow   4401 introduced!
+   Note in line:  1166 Cow   4403 introduced!
+   Note in line:  1168 Cow   4406 introduced!
+   Note in line:  1170 Cow   4407 introduced!
+   Note in line:  1172 Cow   4409 introduced!
+   Note in line:  1174 Cow   4410 introduced!
+   Note in line:  1176 Cow   4411 introduced!
+   Note in line:  1178 Cow   4415 introduced!
+   Note in line:  1180 Cow   4418 introduced!
+   Note in line:  1182 Cow   4420 introduced!
+   Note in line:  1184 Cow   4423 introduced!
+   Note in line:  1186 Cow   4424 introduced!
+   Note in line:  1188 Cow   4425 introduced!
+   Note in line:  1190 Cow   4427 introduced!
+   Note in line:  1192 Cow   4429 introduced!
+   Note in line:  1194 Cow   4432 introduced!
+   Note in line:  1196 Cow   4433 introduced!
+   Note in line:  1198 Cow   4434 introduced!
+   Note in line:  1200 Cow   4436 introduced!
+   Note in line:  1202 Cow   4439 introduced!
+   Note in line:  1204 Cow   4440 introduced!
+   Note in line:  1206 Cow   4441 introduced!
+   Note in line:  1208 Cow   4444 introduced!
+   Note in line:  1210 Cow   4446 introduced!
+   Note in line:  1212 Cow   4447 introduced!
+   Note in line:  1214 Cow   4448 introduced!
+   Note in line:  1216 Cow   4449 introduced!
+   Note in line:  1218 Cow   4453 introduced!
+   Note in line:  1220 Cow   4454 introduced!
+   Note in line:  1222 Cow   4462 introduced!
+   Note in line:  1224 Cow   4463 introduced!
+   Note in line:  1226 Cow   4465 introduced!
+   Note in line:  1228 Cow   4467 introduced!
+   Note in line:  1230 Cow   4471 introduced!
+   Note in line:  1232 Cow   4472 introduced!
+   Note in line:  1234 Cow   4473 introduced!
+   Note in line:  1236 Cow   4474 introduced!
+   Note in line:  1238 Cow   4477 introduced!
+   Note in line:  1240 Cow   4478 introduced!
+   Note in line:  1242 Cow   4479 introduced!
+   Note in line:  1244 Cow   4484 introduced!
+   Note in line:  1246 Cow   4485 introduced!
+   Note in line:  1248 Cow   4486 introduced!
+   Note in line:  1250 Cow   4488 introduced!
+   Note in line:  1252 Cow   4490 introduced!
+   Note in line:  1254 Cow   4492 introduced!
+   Note in line:  1256 Cow   4493 introduced!
+   Note in line:  1258 Cow   4495 introduced!
+   Note in line:  1260 Cow   4499 introduced!
+   Note in line:  1262 Cow   4501 introduced!
+   Note in line:  1264 Cow   4502 introduced!
+   Note in line:  1266 Cow   4503 introduced!
+   Note in line:  1268 Cow   4506 introduced!
+   Note in line:  1270 Cow   4510 introduced!
+   Note in line:  1272 Cow   4512 introduced!
+   Note in line:  1274 Cow   4513 introduced!
+   Note in line:  1276 Cow   4515 introduced!
+   Note in line:  1278 Cow   4519 introduced!
+   Note in line:  1280 Cow   4524 introduced!
+   Note in line:  1282 Cow   4526 introduced!
+   Note in line:  1284 Cow   4527 introduced!
+   Note in line:  1286 Cow   4528 introduced!
+   Note in line:  1288 Cow   4529 introduced!
+   Note in line:  1290 Cow   4538 introduced!
+   Note in line:  1292 Cow   4539 introduced!
+   Note in line:  1294 Cow   4540 introduced!
+   Note in line:  1296 Cow   4543 introduced!
+   Note in line:  1298 Cow   4544 introduced!
+   Note in line:  1300 Cow   4549 introduced!
+   Note in line:  1302 Cow   4551 introduced!
+   Note in line:  1304 Cow   4553 introduced!
+   Note in line:  1306 Cow   4557 introduced!
+   Note in line:  1308 Cow   4558 introduced!
+   Note in line:  1310 Cow   4564 introduced!
+   Note in line:  1312 Cow   4566 introduced!
+   Note in line:  1314 Cow   4567 introduced!
+   Note in line:  1316 Cow   4568 introduced!
+   Note in line:  1318 Cow   4570 introduced!
+   Note in line:  1320 Cow   4571 introduced!
+   Note in line:  1322 Cow   4573 introduced!
+   Note in line:  1324 Cow   4574 introduced!
+   Note in line:  1326 Cow   4579 introduced!
+   Note in line:  1328 Cow   4580 introduced!
+   Note in line:  1330 Cow   4585 introduced!
+   Note in line:  1332 Cow   4587 introduced!
+   Note in line:  1334 Cow   4588 introduced!
+   Note in line:  1336 Cow   4589 introduced!
+   Note in line:  1338 Cow   4590 introduced!
+   Note in line:  1340 Cow   4591 introduced!
+   Note in line:  1342 Cow   4592 introduced!
+   Note in line:  1344 Cow   4593 introduced!
+   Note in line:  1346 Cow   4595 introduced!
+   Note in line:  1348 Cow   4598 introduced!
+   Note in line:  1350 Cow   4600 introduced!
+   Note in line:  1352 Cow   4602 introduced!
+   Note in line:  1354 Cow   4603 introduced!
+   Note in line:  1356 Cow   4606 introduced!
+   Note in line:  1358 Cow   4611 introduced!
+   Note in line:  1360 Cow   4612 introduced!
+   Note in line:  1362 Cow   4613 introduced!
+   Note in line:  1364 Cow   4618 introduced!
+   Note in line:  1366 Cow   4619 introduced!
+   Note in line:  1368 Cow   4620 introduced!
+   Note in line:  1370 Cow   4624 introduced!
+   Note in line:  1372 Cow   4625 introduced!
+   Note in line:  1374 Cow   4630 introduced!
+   Note in line:  1376 Cow   4632 introduced!
+   Note in line:  1378 Cow   4636 introduced!
+   Note in line:  1380 Cow   4640 introduced!
+   Note in line:  1382 Cow   4642 introduced!
+   Note in line:  1384 Cow   4643 introduced!
+   Note in line:  1386 Cow   4645 introduced!
+   Note in line:  1388 Cow   4646 introduced!
+   Note in line:  1390 Cow   4648 introduced!
+   Note in line:  1392 Cow   4649 introduced!
+   Note in line:  1394 Cow   4650 introduced!
+   Note in line:  1396 Cow   4651 introduced!
+   Note in line:  1398 Cow   4652 introduced!
+   Note in line:  1400 Cow   4653 introduced!
+   Note in line:  1402 Cow   4655 introduced!
+   Note in line:  1404 Cow   4656 introduced!
+   Note in line:  1406 Cow   4658 introduced!
+   Note in line:  1408 Cow   4659 introduced!
+   Note in line:  1410 Cow   4662 introduced!
+   Note in line:  1412 Cow   4667 introduced!
+   Note in line:  1414 Cow   4668 introduced!
+   Note in line:  1416 Cow   4669 introduced!
+   Note in line:  1418 Cow   4670 introduced!
+   Note in line:  1420 Cow   4672 introduced!
+   Note in line:  1422 Cow   4673 introduced!
+   Note in line:  1424 Cow   4674 introduced!
+   Note in line:  1426 Cow   4675 introduced!
+   Note in line:  1428 Cow   4677 introduced!
+   Note in line:  1430 Cow   4679 introduced!
+   Note in line:  1432 Cow   4682 introduced!
+   Note in line:  1434 Cow   4684 introduced!
+   Note in line:  1436 Cow   4685 introduced!
+   Note in line:  1438 Cow   4686 introduced!
+   Note in line:  1440 Cow   4688 introduced!
+   Note in line:  1442 Cow   4689 introduced!
+   Note in line:  1444 Cow   4690 introduced!
+   Note in line:  1446 Cow   4692 introduced!
+   Note in line:  1448 Cow   4695 introduced!
+   Note in line:  1450 Cow   4697 introduced!
+   Note in line:  1452 Cow   4701 introduced!
+   Note in line:  1454 Cow   4702 introduced!
+   Note in line:  1456 Cow   4703 introduced!
+   Note in line:  1458 Cow   4705 introduced!
+   Note in line:  1460 Cow   4711 introduced!
+   Note in line:  1462 Cow   4717 introduced!
+   Note in line:  1464 Cow   4719 introduced!
+   Note in line:  1466 Cow   4720 introduced!
+   Note in line:  1468 Cow   4721 introduced!
+   Note in line:  1470 Cow   4722 introduced!
+   Note in line:  1472 Cow   4723 introduced!
+   Note in line:  1474 Cow   4724 introduced!
+   Note in line:  1476 Cow   4730 introduced!
+   Note in line:  1478 Cow   4734 introduced!
+   Note in line:  1480 Cow   4737 introduced!
+   Note in line:  1482 Cow   4738 introduced!
+   Note in line:  1484 Cow   4739 introduced!
+   Note in line:  1486 Cow   4743 introduced!
+   Note in line:  1488 Cow   4744 introduced!
+   Note in line:  1490 Cow   4746 introduced!
+   Note in line:  1492 Cow   4747 introduced!
+   Note in line:  1494 Cow   4748 introduced!
+   Note in line:  1496 Cow   4750 introduced!
+   Note in line:  1498 Cow   4752 introduced!
+   Note in line:  1500 Cow   4757 introduced!
+   Note in line:  1502 Cow   4758 introduced!
+   Note in line:  1504 Cow   4759 introduced!
+   Note in line:  1506 Cow   4760 introduced!
+   Note in line:  1508 Cow   4762 introduced!
+   Note in line:  1510 Cow   4764 introduced!
+   Note in line:  1512 Cow   4766 introduced!
+   Note in line:  1514 Cow   4767 introduced!
+   Note in line:  1516 Cow   4769 introduced!
+   Note in line:  1518 Cow   4770 introduced!
+   Note in line:  1520 Cow   4772 introduced!
+   Note in line:  1522 Cow   4773 introduced!
+   Note in line:  1524 Cow   4774 introduced!
+   Note in line:  1526 Cow   4775 introduced!
+   Note in line:  1528 Cow   4776 introduced!
+   Note in line:  1530 Cow   4778 introduced!
+   Note in line:  1532 Cow   4779 introduced!
+   Note in line:  1534 Cow   4782 introduced!
+   Note in line:  1536 Cow   4784 introduced!
+   Note in line:  1538 Cow   4786 introduced!
+   Note in line:  1540 Cow   4787 introduced!
+   Note in line:  1542 Cow   4789 introduced!
+   Note in line:  1544 Cow   4791 introduced!
+   Note in line:  1546 Cow   4792 introduced!
+   Note in line:  1548 Cow   4795 introduced!
+   Note in line:  1550 Cow   4797 introduced!
+   Note in line:  1552 Cow   4799 introduced!
+   Note in line:  1554 Cow   4800 introduced!
+   Note in line:  1556 Cow   4802 introduced!
+   Note in line:  1558 Cow   4803 introduced!
+   Note in line:  1560 Cow   4805 introduced!
+   Note in line:  1562 Cow   4808 introduced!
+   Note in line:  1564 Cow   4811 introduced!
+   Note in line:  1566 Cow   4815 introduced!
+   Note in line:  1568 Cow   4816 introduced!
+   Note in line:  1570 Cow   4817 introduced!
+   Note in line:  1572 Cow   4818 introduced!
+   Note in line:  1574 Cow   4820 introduced!
+   Note in line:  1576 Cow   4822 introduced!
+   Note in line:  1578 Cow   4823 introduced!
+   Note in line:  1580 Cow   4825 introduced!
+   Note in line:  1582 Cow   4827 introduced!
+   Note in line:  1584 Cow   4828 introduced!
+   Note in line:  1586 Cow   4829 introduced!
+   Note in line:  1588 Cow   4830 introduced!
+   Note in line:  1590 Cow   4831 introduced!
+   Note in line:  1592 Cow   4833 introduced!
+   Note in line:  1594 Cow   4834 introduced!
+   Note in line:  1596 Cow   4835 introduced!
+   Note in line:  1598 Cow   4840 introduced!
+   Note in line:  1600 Cow   4841 introduced!
+   Note in line:  1602 Cow   4842 introduced!
+   Note in line:  1604 Cow   4843 introduced!
+   Note in line:  1606 Cow   4848 introduced!
+   Note in line:  1608 Cow   4850 introduced!
+   Note in line:  1610 Cow   4852 introduced!
+   Note in line:  1612 Cow   4854 introduced!
+   Note in line:  1614 Cow   4855 introduced!
+   Note in line:  1616 Cow   4856 introduced!
+   Note in line:  1618 Cow   4857 introduced!
+   Note in line:  1620 Cow   4859 introduced!
+   Note in line:  1622 Cow   4862 introduced!
+   Note in line:  1624 Cow   4864 introduced!
+   Note in line:  1626 Cow   4868 introduced!
+   Note in line:  1628 Cow   4870 introduced!
+   Note in line:  1630 Cow   4872 introduced!
+   Note in line:  1632 Cow   4873 introduced!
+   Note in line:  1634 Cow   4875 introduced!
+   Note in line:  1636 Cow   4879 introduced!
+   Note in line:  1638 Cow   4880 introduced!
+   Note in line:  1640 Cow   4881 introduced!
+   Note in line:  1642 Cow   4882 introduced!
+   Note in line:  1644 Cow   4886 introduced!
+   Note in line:  1646 Cow   4887 introduced!
+   Note in line:  1648 Cow   4891 introduced!
+   Note in line:  1650 Cow   4892 introduced!
+   Note in line:  1652 Cow   4893 introduced!
+   Note in line:  1654 Cow   4894 introduced!
+   Note in line:  1656 Cow   4898 introduced!
+   Note in line:  1658 Cow   4901 introduced!
+   Note in line:  1660 Cow   4902 introduced!
+   Note in line:  1662 Cow   4903 introduced!
+   Note in line:  1664 Cow   4904 introduced!
+   Note in line:  1666 Cow   4906 introduced!
+   Note in line:  1668 Cow   4908 introduced!
+   Note in line:  1670 Cow   4909 introduced!
+   Note in line:  1672 Cow   4910 introduced!
+   Note in line:  1674 Cow   4912 introduced!
+   Note in line:  1676 Cow   4914 introduced!
+   Note in line:  1678 Cow   4915 introduced!
+   Note in line:  1680 Cow   4916 introduced!
+   Note in line:  1682 Cow   4918 introduced!
+   Note in line:  1684 Cow   4919 introduced!
+   Note in line:  1686 Cow   4920 introduced!
+   Note in line:  1688 Cow   4923 introduced!
+   Note in line:  1690 Cow   4925 introduced!
+   Note in line:  1692 Cow   4926 introduced!
+   Note in line:  1694 Cow   4930 introduced!
+   Note in line:  1696 Cow   4931 introduced!
+   Note in line:  1698 Cow   4932 introduced!
+   Note in line:  1700 Cow   4933 introduced!
+   Note in line:  1702 Cow   4934 introduced!
+   Note in line:  1704 Cow   4935 introduced!
+   Note in line:  1706 Cow   4937 introduced!
+   Note in line:  1708 Cow   4939 introduced!
+   Note in line:  1710 Cow   4941 introduced!
+   Note in line:  1712 Cow   4943 introduced!
+   Note in line:  1714 Cow   4944 introduced!
+   Note in line:  1716 Cow   4945 introduced!
+   Note in line:  1718 Cow   4946 introduced!
+   Note in line:  1720 Cow   4948 introduced!
+   Note in line:  1722 Cow   4951 introduced!
+   Note in line:  1724 Cow   4952 introduced!
+   Note in line:  1726 Cow   4953 introduced!
+   Note in line:  1728 Cow   4956 introduced!
+   Note in line:  1730 Cow   4958 introduced!
+   Note in line:  1732 Cow   4959 introduced!
+   Note in line:  1734 Cow   4960 introduced!
+   Note in line:  1736 Cow   4963 introduced!
+   Note in line:  1738 Cow   4965 introduced!
+   Note in line:  1740 Cow   4966 introduced!
+   Note in line:  1742 Cow   4967 introduced!
+   Note in line:  1744 Cow   4973 introduced!
+   Note in line:  1746 Cow   4977 introduced!
+   Note in line:  1748 Cow   4978 introduced!
+   Note in line:  1750 Cow   4979 introduced!
+   Note in line:  1752 Cow   4980 introduced!
+   Note in line:  1754 Cow   4981 introduced!
+   Note in line:  1756 Cow   4982 introduced!
+   Note in line:  1758 Cow   4983 introduced!
+   Note in line:  1760 Cow   4984 introduced!
+   Note in line:  1762 Cow   4985 introduced!
+   Note in line:  1764 Cow   4986 introduced!
+   Note in line:  1766 Cow   4987 introduced!
+   Note in line:  1768 Cow   4988 introduced!
+   Note in line:  1770 Cow   4990 introduced!
+   Note in line:  1772 Cow   4991 introduced!
+   Note in line:  1774 Cow   4994 introduced!
+   Note in line:  1776 Cow   4995 introduced!
+   Note in line:  1778 Cow   4996 introduced!
+   Note in line:  1780 Cow   4997 introduced!
+   Note in line:  1782 Cow   4998 introduced!
+   Note in line:  1784 Cow   5001 introduced!
+   Note in line:  1786 Cow   5002 introduced!
+   Note in line:  1788 Cow   5006 introduced!
+   Note in line:  1790 Cow   5007 introduced!
+   Note in line:  1792 Cow   5008 introduced!
+   Note in line:  1794 Cow   5009 introduced!
+   Note in line:  1796 Cow   5011 introduced!
+   Note in line:  1798 Cow   5013 introduced!
+   Note in line:  1800 Cow   5018 introduced!
+   Note in line:  1802 Cow   5021 introduced!
+   Note in line:  1804 Cow   5023 introduced!
+   Note in line:  1806 Cow   5024 introduced!
+   Note in line:  1808 Cow   5025 introduced!
+   Note in line:  1810 Cow   5026 introduced!
+   Note in line:  1812 Cow   5027 introduced!
+   Note in line:  1814 Cow   5029 introduced!
+   Note in line:  1816 Cow   5031 introduced!
+   Note in line:  1818 Cow   5032 introduced!
+   Note in line:  1820 Cow   5033 introduced!
+   Note in line:  1822 Cow   5034 introduced!
+   Note in line:  1824 Cow   5035 introduced!
+   Note in line:  1826 Cow   5037 introduced!
+   Note in line:  1828 Cow   5038 introduced!
+   Note in line:  1830 Cow   5041 introduced!
+   Note in line:  1832 Cow   5042 introduced!
+   Note in line:  1834 Cow   5043 introduced!
+   Note in line:  1836 Cow   5045 introduced!
+   Note in line:  1838 Cow   5047 introduced!
+   Note in line:  1840 Cow   5049 introduced!
+   Note in line:  1842 Cow   5052 introduced!
+   Note in line:  1844 Cow   5053 introduced!
+   Note in line:  1846 Cow   5054 introduced!
+   Note in line:  1848 Cow   5055 introduced!
+   Note in line:  1850 Cow   5056 introduced!
+   Note in line:  1852 Cow   5058 introduced!
+   Note in line:  1854 Cow   5060 introduced!
+   Note in line:  1856 Cow   5061 introduced!
+   Note in line:  1858 Cow   5062 introduced!
+   Note in line:  1860 Cow   5063 introduced!
+   Note in line:  1862 Cow   5064 introduced!
+   Note in line:  1864 Cow   5065 introduced!
+   Note in line:  1866 Cow   5067 introduced!
+   Note in line:  1868 Cow   5068 introduced!
+   Note in line:  1870 Cow   5069 introduced!
+   Note in line:  1872 Cow   5071 introduced!
+   Note in line:  1874 Cow   5072 introduced!
+   Note in line:  1876 Cow   5074 introduced!
+   Note in line:  1878 Cow   5075 introduced!
+   Note in line:  1880 Cow   5076 introduced!
+   Note in line:  1882 Cow   5077 introduced!
+   Note in line:  1884 Cow   5078 introduced!
+   Note in line:  1886 Cow   5079 introduced!
+   Note in line:  1888 Cow   5080 introduced!
+   Note in line:  1890 Cow   5081 introduced!
+   Note in line:  1892 Cow   5082 introduced!
+   Note in line:  1894 Cow   5083 introduced!
+   Note in line:  1896 Cow   5085 introduced!
+   Note in line:  1898 Cow   5086 introduced!
+   Note in line:  1900 Cow   5088 introduced!
+   Note in line:  1902 Cow   5091 introduced!
+   Note in line:  1904 Cow   5092 introduced!
+   Note in line:  1906 Cow   5093 introduced!
+   Note in line:  1908 Cow   5095 introduced!
+   Note in line:  1910 Cow   5098 introduced!
+   Note in line:  1912 Cow   5099 introduced!
+   Note in line:  1914 Cow   5101 introduced!
+   Note in line:  1916 Cow   5103 introduced!
+   Note in line:  1918 Cow   5105 introduced!
+   Note in line:  1920 Cow   5108 introduced!
+   Note in line:  1922 Cow   5109 introduced!
+   Note in line:  1924 Cow   5116 introduced!
+   Note in line:  1926 Cow   5117 introduced!
+   Note in line:  1928 Cow   5118 introduced!
+   Note in line:  1930 Cow   5119 introduced!
+   Note in line:  1932 Cow   5120 introduced!
+   Note in line:  1934 Cow   5121 introduced!
+   Note in line:  1936 Cow   5123 introduced!
+   Note in line:  1938 Cow   5126 introduced!
+   Note in line:  1940 Cow   5127 introduced!
+   Note in line:  1942 Cow   5128 introduced!
+   Note in line:  1944 Cow   5129 introduced!
+   Note in line:  1946 Cow   5130 introduced!
+   Note in line:  1948 Cow   5131 introduced!
+   Note in line:  1950 Cow   5132 introduced!
+   Note in line:  1952 Cow   5133 introduced!
+   Note in line:  1954 Cow   5136 introduced!
+   Note in line:  1956 Cow   5137 introduced!
+   Note in line:  1958 Cow   5140 introduced!
+   Note in line:  1960 Cow   5141 introduced!
+   Note in line:  1962 Cow   5144 introduced!
+   Note in line:  1964 Cow   5145 introduced!
+   Note in line:  1966 Cow   5146 introduced!
+   Note in line:  1968 Cow   5147 introduced!
+   Note in line:  1970 Cow   5148 introduced!
+   Note in line:  1972 Cow   5149 introduced!
+   Note in line:  1974 Cow   5150 introduced!
+   Note in line:  1976 Cow   5151 introduced!
+   Note in line:  1978 Cow   5155 introduced!
+   Note in line:  1980 Cow   5156 introduced!
+   Note in line:  1982 Cow   5158 introduced!
+   Note in line:  1984 Cow   5159 introduced!
+   Note in line:  1986 Cow   5160 introduced!
+   Note in line:  1988 Cow   5161 introduced!
+   Note in line:  1990 Cow   5162 introduced!
+   Note in line:  1992 Cow   5163 introduced!
+   Note in line:  1994 Cow   5164 introduced!
+   Note in line:  1996 Cow   5165 introduced!
+   Note in line:  1998 Cow   5168 introduced!
+   Note in line:  2000 Cow   5169 introduced!
+   Note in line:  2002 Cow   5170 introduced!
+   Note in line:  2004 Cow   5172 introduced!
+   Note in line:  2006 Cow   5173 introduced!
+   Note in line:  2008 Cow   5175 introduced!
+   Note in line:  2010 Cow   5176 introduced!
+   Note in line:  2012 Cow   5177 introduced!
+   Note in line:  2014 Cow   5178 introduced!
+   Note in line:  2016 Cow   5179 introduced!
+   Note in line:  2018 Cow   5183 introduced!
+   Note in line:  2020 Cow   5186 introduced!
+   Note in line:  2022 Cow   5187 introduced!
+   Note in line:  2024 Cow   5188 introduced!
+   Note in line:  2026 Cow   5189 introduced!
+   Note in line:  2028 Cow   5190 introduced!
+   Note in line:  2030 Cow   5192 introduced!
+   Note in line:  2032 Cow   5193 introduced!
+   Note in line:  2034 Cow   5194 introduced!
+   Note in line:  2036 Cow   5195 introduced!
+   Note in line:  2038 Cow   5196 introduced!
+   Note in line:  2040 Cow   5203 introduced!
+   Note in line:  2042 Cow   5204 introduced!
+   Note in line:  2044 Cow   5208 introduced!
+   Note in line:  2046 Cow   5209 introduced!
+   Note in line:  2048 Cow   5210 introduced!
+   Note in line:  2050 Cow   5211 introduced!
+   Note in line:  2052 Cow   5212 introduced!
+   Note in line:  2054 Cow   5214 introduced!
+   Note in line:  2056 Cow   5216 introduced!
+   Note in line:  2058 Cow   5217 introduced!
+   Note in line:  2060 Cow   5218 introduced!
+   Note in line:  2062 Cow   5219 introduced!
+   Note in line:  2064 Cow   5220 introduced!
+   Note in line:  2066 Cow   5222 introduced!
+   Note in line:  2068 Cow   5229 introduced!
+   Note in line:  2070 Cow   5233 introduced!
+   Note in line:  2072 Cow   5234 introduced!
+   Note in line:  2074 Cow   5236 introduced!
+   Note in line:  2076 Cow   5237 introduced!
+   Note in line:  2078 Cow   5239 introduced!
+   Note in line:  2080 Cow   5240 introduced!
+   Note in line:  2082 Cow   5241 introduced!
+   Note in line:  2084 Cow   5242 introduced!
+   Note in line:  2086 Cow   5244 introduced!
+   Note in line:  2088 Cow   5247 introduced!
+   Note in line:  2090 Cow   5248 introduced!
+   Note in line:  2092 Cow   5250 introduced!
+   Note in line:  2094 Cow   5251 introduced!
+   Note in line:  2096 Cow   5253 introduced!
+   Note in line:  2098 Cow   5257 introduced!
+   Note in line:  2100 Cow   5258 introduced!
+   Note in line:  2102 Cow   5259 introduced!
+   Note in line:  2104 Cow   5261 introduced!
+   Note in line:  2106 Cow   5262 introduced!
+   Note in line:  2108 Cow   5263 introduced!
+   Note in line:  2110 Cow   5267 introduced!
+   Note in line:  2112 Cow   5268 introduced!
+   Note in line:  2114 Cow   5272 introduced!
+   Note in line:  2116 Cow   5276 introduced!
+   Note in line:  2118 Cow   5277 introduced!
+   Note in line:  2120 Cow   5278 introduced!
+   Note in line:  2122 Cow   5279 introduced!
+   Note in line:  2124 Cow   5281 introduced!
+   Note in line:  2126 Cow   5282 introduced!
+   Note in line:  2128 Cow   5284 introduced!
+   Note in line:  2130 Cow   5289 introduced!
+   Note in line:  2132 Cow   5290 introduced!
+   Note in line:  2134 Cow   5292 introduced!
+   Note in line:  2136 Cow   5293 introduced!
+   Note in line:  2138 Cow   5294 introduced!
+   Note in line:  2140 Cow   5295 introduced!
+   Note in line:  2142 Cow   5297 introduced!
+   Note in line:  2144 Cow   5298 introduced!
+   Note in line:  2146 Cow   5299 introduced!
+   Note in line:  2148 Cow   5301 introduced!
+   Note in line:  2150 Cow   5302 introduced!
+   Note in line:  2152 Cow   5304 introduced!
+   Note in line:  2154 Cow   5306 introduced!
+   Note in line:  2156 Cow   5307 introduced!
+   Note in line:  2158 Cow   5309 introduced!
+   Note in line:  2160 Cow   5312 introduced!
+   Note in line:  2162 Cow   5313 introduced!
+   Note in line:  2164 Cow   5314 introduced!
+   Note in line:  2166 Cow   5315 introduced!
+   Note in line:  2168 Cow   5317 introduced!
+   Note in line:  2170 Cow   5318 introduced!
+   Note in line:  2172 Cow   5319 introduced!
+   Note in line:  2174 Cow   5320 introduced!
+   Note in line:  2176 Cow   5321 introduced!
+   Note in line:  2178 Cow   5322 introduced!
+   Note in line:  2180 Cow   5324 introduced!
+   Note in line:  2182 Cow   5326 introduced!
+   Note in line:  2184 Cow   5329 introduced!
+   Note in line:  2186 Cow   5330 introduced!
+   Note in line:  2188 Cow   5332 introduced!
+   Note in line:  2190 Cow   5333 introduced!
+   Note in line:  2192 Cow   5336 introduced!
+   Note in line:  2194 Cow   5337 introduced!
+   Note in line:  2196 Cow   5338 introduced!
+   Note in line:  2198 Cow   5340 introduced!
+   Note in line:  2200 Cow   5342 introduced!
+   Note in line:  2202 Cow   5344 introduced!
+   Note in line:  2204 Cow   5345 introduced!
+   Note in line:  2206 Cow   5346 introduced!
+   Note in line:  2208 Cow   5347 introduced!
+   Note in line:  2210 Cow   5348 introduced!
+   Note in line:  2212 Cow   5349 introduced!
+   Note in line:  2214 Cow   5351 introduced!
+   Note in line:  2216 Cow   5352 introduced!
+   Note in line:  2218 Cow   5353 introduced!
+   Note in line:  2220 Cow   5354 introduced!
+   Note in line:  2222 Cow   5357 introduced!
+   Note in line:  2224 Cow   5359 introduced!
+   Note in line:  2226 Cow   5361 introduced!
+   Note in line:  2228 Cow   5362 introduced!
+   Note in line:  2230 Cow   5364 introduced!
+   Note in line:  2232 Cow   5365 introduced!
+   Note in line:  2234 Cow   5366 introduced!
+   Note in line:  2236 Cow   5367 introduced!
+   Note in line:  2238 Cow   5369 introduced!
+   Note in line:  2240 Cow   5370 introduced!
+   Note in line:  2242 Cow   5371 introduced!
+   Note in line:  2244 Cow   5372 introduced!
+   Note in line:  2246 Cow   5374 introduced!
+   Note in line:  2248 Cow   5377 introduced!
+   Note in line:  2250 Cow   5380 introduced!
+   Note in line:  2252 Cow   5381 introduced!
+   Note in line:  2254 Cow   5384 introduced!
+   Note in line:  2256 Cow   5386 introduced!
+   Note in line:  2258 Cow   5388 introduced!
+   Note in line:  2260 Cow   5389 introduced!
+   Note in line:  2262 Cow   5390 introduced!
+   Note in line:  2264 Cow   5391 introduced!
+   Note in line:  2266 Cow   5393 introduced!
+   Note in line:  2268 Cow   5394 introduced!
+   Note in line:  2270 Cow   5395 introduced!
+   Note in line:  2272 Cow   5398 introduced!
+   Note in line:  2274 Cow   5399 introduced!
+   Note in line:  2276 Cow   5400 introduced!
+   Note in line:  2278 Cow   5402 introduced!
+   Note in line:  2280 Cow   5404 introduced!
+   Note in line:  2282 Cow   5405 introduced!
+   Note in line:  2284 Cow   5406 introduced!
+   Note in line:  2286 Cow   5407 introduced!
+   Note in line:  2288 Cow   5408 introduced!
+   Note in line:  2290 Cow   5410 introduced!
+   Note in line:  2292 Cow   5411 introduced!
+   Note in line:  2294 Cow   5414 introduced!
+   Note in line:  2296 Cow   5415 introduced!
+   Note in line:  2298 Cow   5416 introduced!
+   Note in line:  2300 Cow   5418 introduced!
+   Note in line:  2302 Cow   5420 introduced!
+   Note in line:  2304 Cow   5421 introduced!
+   Note in line:  2306 Cow   5423 introduced!
+   Note in line:  2308 Cow   5426 introduced!
+   Note in line:  2310 Cow   5427 introduced!
+   Note in line:  2312 Cow   5428 introduced!
+   Note in line:  2314 Cow   5429 introduced!
+   Note in line:  2316 Cow   5430 introduced!
+   Note in line:  2318 Cow   5431 introduced!
+   Note in line:  2320 Cow   5432 introduced!
+   Note in line:  2322 Cow   5434 introduced!
+   Note in line:  2324 Cow   5435 introduced!
+   Note in line:  2326 Cow   5438 introduced!
+   Note in line:  2328 Cow   5439 introduced!
+   Note in line:  2330 Cow   5440 introduced!
+   Note in line:  2332 Cow   5441 introduced!
+   Note in line:  2334 Cow   5443 introduced!
+   Note in line:  2336 Cow   5444 introduced!
+   Note in line:  2338 Cow   5445 introduced!
+   Note in line:  2340 Cow   5447 introduced!
+   Note in line:  2342 Cow   5448 introduced!
+   Note in line:  2344 Cow   5449 introduced!
+   Note in line:  2346 Cow   5450 introduced!
+   Note in line:  2348 Cow   5451 introduced!
+   Note in line:  2350 Cow   5452 introduced!
+   Note in line:  2352 Cow   5453 introduced!
+   Note in line:  2354 Cow   5454 introduced!
+   Note in line:  2356 Cow   5455 introduced!
+   Note in line:  2358 Cow   5456 introduced!
+   Note in line:  2360 Cow   5457 introduced!
+   Note in line:  2362 Cow   5458 introduced!
+   Note in line:  2364 Cow   5460 introduced!
+   Note in line:  2366 Cow   5461 introduced!
+   Note in line:  2368 Cow   5462 introduced!
+   Note in line:  2370 Cow   5463 introduced!
+   Note in line:  2372 Cow   5464 introduced!
+   Note in line:  2374 Cow   5465 introduced!
+   Note in line:  2376 Cow   5467 introduced!
+   Note in line:  2378 Cow   5469 introduced!
+   Note in line:  2380 Cow   5470 introduced!
+   Note in line:  2382 Cow   5472 introduced!
+   Note in line:  2384 Cow   5473 introduced!
+   Note in line:  2386 Cow   5475 introduced!
+   Note in line:  2388 Cow   5477 introduced!
+   Note in line:  2390 Cow   5478 introduced!
+   Note in line:  2392 Cow   5479 introduced!
+   Note in line:  2394 Cow   5480 introduced!
+   Note in line:  2396 Cow   5482 introduced!
+   Note in line:  2398 Cow   5484 introduced!
+   Note in line:  2400 Cow   5485 introduced!
+   Note in line:  2402 Cow   5486 introduced!
+   Note in line:  2404 Cow   5487 introduced!
+   Note in line:  2406 Cow   5488 introduced!
+   Note in line:  2408 Cow   5489 introduced!
+   Note in line:  2410 Cow   5490 introduced!
+   Note in line:  2412 Cow   5491 introduced!
+   Note in line:  2414 Cow   5492 introduced!
+   Note in line:  2416 Cow   5493 introduced!
+   Note in line:  2418 Cow   5496 introduced!
+   Note in line:  2420 Cow   5497 introduced!
+   Note in line:  2422 Cow   5499 introduced!
+   Note in line:  2424 Cow   5501 introduced!
+   Note in line:  2426 Cow   5502 introduced!
+   Note in line:  2428 Cow   5503 introduced!
+   Note in line:  2430 Cow   5505 introduced!
+   Note in line:  2432 Cow   5506 introduced!
+   Note in line:  2434 Cow   5507 introduced!
+   Note in line:  2436 Cow   5508 introduced!
+   Note in line:  2438 Cow   5510 introduced!
+   Note in line:  2440 Cow   5511 introduced!
+   Note in line:  2442 Cow   5512 introduced!
+   Note in line:  2444 Cow   5513 introduced!
+   Note in line:  2446 Cow   5515 introduced!
+   Note in line:  2448 Cow   5516 introduced!
+   Note in line:  2450 Cow   5517 introduced!
+   Note in line:  2452 Cow   5519 introduced!
+   Note in line:  2454 Cow   5520 introduced!
+   Note in line:  2456 Cow   5521 introduced!
+   Note in line:  2458 Cow   5522 introduced!
+   Note in line:  2460 Cow   5523 introduced!
+   Note in line:  2462 Cow   5526 introduced!
+   Note in line:  2464 Cow   5527 introduced!
+   Note in line:  2466 Cow   5528 introduced!
+   Note in line:  2468 Cow   5529 introduced!
+   Note in line:  2470 Cow   5530 introduced!
+   Note in line:  2472 Cow   5531 introduced!
+   Note in line:  2474 Cow   5532 introduced!
+   Note in line:  2476 Cow   5533 introduced!
+   Note in line:  2478 Cow   5535 introduced!
+   Note in line:  2480 Cow   5536 introduced!
+   Note in line:  2482 Cow   5537 introduced!
+   Note in line:  2484 Cow   5538 introduced!
+   Note in line:  2486 Cow   5541 introduced!
+   Note in line:  2488 Cow   5542 introduced!
+   Note in line:  2490 Cow   5543 introduced!
+   Note in line:  2492 Cow   5545 introduced!
+   Note in line:  2494 Cow   5546 introduced!
+   Note in line:  2496 Cow   5547 introduced!
+   Note in line:  2498 Cow   5548 introduced!
+   Note in line:  2500 Cow   5549 introduced!
+   Note in line:  2502 Cow   5551 introduced!
+   Note in line:  2504 Cow   5552 introduced!
+   Note in line:  2506 Cow   5555 introduced!
+   Note in line:  2508 Cow   5556 introduced!
+   Note in line:  2510 Cow   5557 introduced!
+   Note in line:  2512 Cow   5558 introduced!
+   Note in line:  2514 Cow   5559 introduced!
+   Note in line:  2516 Cow   5560 introduced!
+   Note in line:  2518 Cow   5561 introduced!
+   Note in line:  2520 Cow   5564 introduced!
+   Note in line:  2522 Cow   5565 introduced!
+   Note in line:  2524 Cow   5566 introduced!
+   Note in line:  2526 Cow   5567 introduced!
+   Note in line:  2528 Cow   5568 introduced!
+   Note in line:  2530 Cow   5569 introduced!
+   Note in line:  2532 Cow   5571 introduced!
+   Note in line:  2534 Cow   5572 introduced!
+   Note in line:  2536 Cow   5573 introduced!
+   Note in line:  2538 Cow   5574 introduced!
+   Note in line:  2540 Cow   5575 introduced!
+   Note in line:  2542 Cow   5577 introduced!
+   Note in line:  2544 Cow   5578 introduced!
+   Note in line:  2546 Cow   5580 introduced!
+   Note in line:  2548 Cow   5581 introduced!
+   Note in line:  2550 Cow   5584 introduced!
+   Note in line:  2552 Cow   5585 introduced!
+   Note in line:  2554 Cow   5586 introduced!
+   Note in line:  2556 Cow   5587 introduced!
+   Note in line:  2558 Cow   5588 introduced!
+   Note in line:  2560 Cow   5589 introduced!
+   Note in line:  2562 Cow   5590 introduced!
+   Note in line:  2564 Cow   5592 introduced!
+   Note in line:  2566 Cow   5594 introduced!
+   Note in line:  2568 Cow   5596 introduced!
+   Note in line:  2570 Cow   5597 introduced!
+   Note in line:  2572 Cow   5598 introduced!
+   Note in line:  2574 Cow   5600 introduced!
+   Note in line:  2576 Cow   5601 introduced!
+   Note in line:  2578 Cow   5603 introduced!
+   Note in line:  2580 Cow   5604 introduced!
+   Note in line:  2582 Cow   5607 introduced!
+   Note in line:  2584 Cow   5608 introduced!
+   Note in line:  2586 Cow   5609 introduced!
+   Note in line:  2588 Cow   5610 introduced!
+   Note in line:  2590 Cow   5611 introduced!
+   Note in line:  2592 Cow   5612 introduced!
+   Note in line:  2594 Cow   5613 introduced!
+   Note in line:  2596 Cow   5614 introduced!
+   Note in line:  2598 Cow   5615 introduced!
+   Note in line:  2600 Cow   5616 introduced!
+   Note in line:  2602 Cow   5617 introduced!
+   Note in line:  2604 Cow   5618 introduced!
+   Note in line:  2606 Cow   5619 introduced!
+   Note in line:  2608 Cow   5620 introduced!
+   Note in line:  2610 Cow   5622 introduced!
+   Note in line:  2612 Cow   5623 introduced!
+   Note in line:  2614 Cow   5624 introduced!
+   Note in line:  2616 Cow   5625 introduced!
+   Note in line:  2618 Cow   5626 introduced!
+   Note in line:  2620 Cow   5628 introduced!
+   Note in line:  2622 Cow   5629 introduced!
+   Note in line:  2624 Cow   5630 introduced!
+   Note in line:  2626 Cow   5632 introduced!
+   Note in line:  2628 Cow   5633 introduced!
+   Note in line:  2630 Cow   5634 introduced!
+   Note in line:  2632 Cow   5636 introduced!
+   Note in line:  2634 Cow   5637 introduced!
+   Note in line:  2636 Cow   5639 introduced!
+   Note in line:  2638 Cow   5641 introduced!
+   Note in line:  2640 Cow   5642 introduced!
+   Note in line:  2642 Cow   5643 introduced!
+   Note in line:  2644 Cow   5645 introduced!
+   Note in line:  2646 Cow   5646 introduced!
+   Note in line:  2648 Cow   5648 introduced!
+   Note in line:  2650 Cow   5649 introduced!
+   Note in line:  2652 Cow   5650 introduced!
+   Note in line:  2654 Cow   5651 introduced!
+   Note in line:  2656 Cow   5653 introduced!
+   Note in line:  2658 Cow   5654 introduced!
+   Note in line:  2660 Cow   5655 introduced!
+   Note in line:  2662 Cow   5656 introduced!
+   Note in line:  2664 Cow   5657 introduced!
+   Note in line:  2666 Cow   5658 introduced!
+   Note in line:  2668 Cow   5659 introduced!
+   Note in line:  2670 Cow   5660 introduced!
+   Note in line:  2672 Cow   5663 introduced!
+   Note in line:  2674 Cow   5665 introduced!
+   Note in line:  2676 Cow   5666 introduced!
+   Note in line:  2678 Cow   5669 introduced!
+   Note in line:  2680 Cow   5671 introduced!
+   Note in line:  2682 Cow   5672 introduced!
+   Note in line:  2684 Cow   5673 introduced!
+   Note in line:  2686 Cow   5674 introduced!
+   Note in line:  2688 Cow   5675 introduced!
+   Note in line:  2690 Cow   5676 introduced!
+   Note in line:  2692 Cow   5677 introduced!
+   Note in line:  2694 Cow   5678 introduced!
+   Note in line:  2696 Cow   5681 introduced!
+   Note in line:  2698 Cow   5682 introduced!
+   Note in line:  2700 Cow   5683 introduced!
+   Note in line:  2702 Cow   5684 introduced!
+   Note in line:  2704 Cow   5685 introduced!
+   Note in line:  2706 Cow   5687 introduced!
+   Note in line:  2708 Cow   5688 introduced!
+   Note in line:  2710 Cow   5691 introduced!
+   Note in line:  2712 Cow   5692 introduced!
+   Note in line:  2714 Cow   5693 introduced!
+   Note in line:  2716 Cow   5694 introduced!
+   Note in line:  2718 Cow   5695 introduced!
+   Note in line:  2720 Cow   5696 introduced!
+   Note in line:  2722 Cow   5697 introduced!
+   Note in line:  2724 Cow   5698 introduced!
+   Note in line:  2726 Cow   5699 introduced!
+   Note in line:  2728 Cow   5700 introduced!
+   Note in line:  2730 Cow   5701 introduced!
+   Note in line:  2732 Cow   5703 introduced!
+   Note in line:  2734 Cow   5705 introduced!
+   Note in line:  2736 Cow   5707 introduced!
+   Note in line:  2738 Cow   5708 introduced!
+   Note in line:  2740 Cow   5709 introduced!
+   Note in line:  2742 Cow   5710 introduced!
+   Note in line:  2744 Cow   5712 introduced!
+   Note in line:  2746 Cow   5715 introduced!
+   Note in line:  2748 Cow   5716 introduced!
+   Note in line:  2750 Cow   5717 introduced!
+   Note in line:  2752 Cow   5718 introduced!
+   Note in line:  2754 Cow   5719 introduced!
+   Note in line:  2756 Cow   5720 introduced!
+   Note in line:  2758 Cow   5721 introduced!
+   Note in line:  2760 Cow   5722 introduced!
+   Note in line:  2762 Cow   5723 introduced!
+   Note in line:  2764 Cow   5724 introduced!
+   Note in line:  2766 Cow   5725 introduced!
+   Note in line:  2768 Cow   5726 introduced!
+   Note in line:  2770 Cow   5727 introduced!
+   Note in line:  2772 Cow   5728 introduced!
+   Note in line:  2774 Cow   5729 introduced!
+   Note in line:  2776 Cow   5730 introduced!
+   Note in line:  2778 Cow   5731 introduced!
+   Note in line:  2780 Cow   5732 introduced!
+   Note in line:  2782 Cow   5733 introduced!
+   Note in line:  2784 Cow   5734 introduced!
+   Note in line:  2786 Cow   5736 introduced!
+   Note in line:  2788 Cow   5737 introduced!
+   Note in line:  2790 Cow   5738 introduced!
+   Note in line:  2792 Cow   5739 introduced!
+   Note in line:  2794 Cow   5741 introduced!
+   Note in line:  2796 Cow   5742 introduced!
+   Note in line:  2798 Cow   5744 introduced!
+   Note in line:  2800 Cow   5745 introduced!
+   Note in line:  2802 Cow   5746 introduced!
+   Note in line:  2804 Cow   5747 introduced!
+   Note in line:  2806 Cow   5750 introduced!
+   Note in line:  2808 Cow   5751 introduced!
+   Note in line:  2810 Cow   5752 introduced!
+   Note in line:  2812 Cow   5753 introduced!
+   Note in line:  2814 Cow   5754 introduced!
+   Note in line:  2816 Cow   5755 introduced!
+   Note in line:  2818 Cow   5756 introduced!
+   Note in line:  2820 Cow   5757 introduced!
+   Note in line:  2822 Cow   5758 introduced!
+   Note in line:  2824 Cow   5759 introduced!
+   Note in line:  2826 Cow   5760 introduced!
+   Note in line:  2828 Cow   5761 introduced!
+   Note in line:  2830 Cow   5762 introduced!
+   Note in line:  2832 Cow   5763 introduced!
+   Note in line:  2834 Cow   5764 introduced!
+   Note in line:  2836 Cow   5765 introduced!
+   Note in line:  2838 Cow   5766 introduced!
+   Note in line:  2840 Cow   5767 introduced!
+   Note in line:  2842 Cow   5768 introduced!
+   Note in line:  2844 Cow   5769 introduced!
+   Note in line:  2846 Cow   5771 introduced!
+   Note in line:  2848 Cow   5772 introduced!
+   Note in line:  2850 Cow   5773 introduced!
+   Note in line:  2852 Cow   5774 introduced!
+   Note in line:  2854 Cow   5775 introduced!
+   Note in line:  2856 Cow   5776 introduced!
+   Note in line:  2858 Cow   5777 introduced!
+   Note in line:  2860 Cow   5778 introduced!
+   Note in line:  2862 Cow   5779 introduced!
+   Note in line:  2864 Cow   5781 introduced!
+   Note in line:  2866 Cow   5782 introduced!
+   Note in line:  2868 Cow   5783 introduced!
+   Note in line:  2870 Cow   5784 introduced!
+   Note in line:  2872 Cow   5785 introduced!
+   Note in line:  2874 Cow   5787 introduced!
+   Note in line:  2876 Cow   5788 introduced!
+   Note in line:  2878 Cow   5789 introduced!
+   Note in line:  2880 Cow   5790 introduced!
+   Note in line:  2882 Cow   5791 introduced!
+   Note in line:  2884 Cow   5792 introduced!
+   Note in line:  2886 Cow   5793 introduced!
+   Note in line:  2888 Cow   5797 introduced!
+   Note in line:  2890 Cow   5798 introduced!
+   Note in line:  2892 Cow   5799 introduced!
+   Note in line:  2894 Cow   5800 introduced!
+   Note in line:  2896 Cow   5801 introduced!
+   Note in line:  2898 Cow   5802 introduced!
+   Note in line:  2900 Cow   5803 introduced!
+   Note in line:  2902 Cow   5804 introduced!
+   Note in line:  2904 Cow   5805 introduced!
+   Note in line:  2906 Cow   5806 introduced!
+   Note in line:  2908 Cow   5807 introduced!
+   Note in line:  2910 Cow   5808 introduced!
+   Note in line:  2912 Cow   5809 introduced!
+   Note in line:  2914 Cow   5810 introduced!
+   Note in line:  2916 Cow   5811 introduced!
+   Note in line:  2918 Cow   5812 introduced!
+   Note in line:  2920 Cow   5813 introduced!
+   Note in line:  2922 Cow   5814 introduced!
+   Note in line:  2924 Cow   5815 introduced!
+   Note in line:  2926 Cow   5816 introduced!
+   Note in line:  2928 Cow   5817 introduced!
+   Note in line:  2930 Cow   5818 introduced!
+   Note in line:  2932 Cow   5820 introduced!
+   Note in line:  2934 Cow   5821 introduced!
+   Note in line:  2936 Cow   5822 introduced!
+   Note in line:  2938 Cow   5824 introduced!
+   Note in line:  2940 Cow   5825 introduced!
+   Note in line:  2942 Cow   5826 introduced!
+   Note in line:  2944 Cow   5827 introduced!
+   Note in line:  2946 Cow   5828 introduced!
+   Note in line:  2948 Cow   5829 introduced!
+   Note in line:  2950 Cow   5831 introduced!
+   Note in line:  2952 Cow   5832 introduced!
+   Note in line:  2954 Cow   5834 introduced!
+   Note in line:  2956 Cow   5835 introduced!
+   Note in line:  2958 Cow   5837 introduced!
+   Note in line:  2960 Cow   5838 introduced!
+   Note in line:  2962 Cow   5839 introduced!
+   Note in line:  2964 Cow   5840 introduced!
+   Note in line:  2966 Cow   5841 introduced!
+   Note in line:  2968 Cow   5842 introduced!
+   Note in line:  2970 Cow   5843 introduced!
+   Note in line:  2972 Cow   5844 introduced!
+   Note in line:  2974 Cow   5846 introduced!
+   Note in line:  2976 Cow   5847 introduced!
+   Note in line:  2978 Cow   5848 introduced!
+   Note in line:  2980 Cow   5849 introduced!
+   Note in line:  2982 Cow   5850 introduced!
+   Note in line:  2984 Cow   5851 introduced!
+   Note in line:  2986 Cow   5853 introduced!
+   Note in line:  2988 Cow   5854 introduced!
+   Note in line:  2990 Cow   5855 introduced!
+   Note in line:  2992 Cow   5857 introduced!
+   Note in line:  2994 Cow   5858 introduced!
+   Note in line:  2996 Cow   5859 introduced!
+   Note in line:  2998 Cow   5860 introduced!
+   Note in line:  3000 Cow   5861 introduced!
+   Note in line:  3002 Cow   5863 introduced!
+   Note in line:  3004 Cow   5864 introduced!
+   Note in line:  3006 Cow   5865 introduced!
+   Note in line:  3008 Cow   5866 introduced!
+   Note in line:  3010 Cow   5867 introduced!
+   Note in line:  3012 Cow   5868 introduced!
+   Note in line:  3014 Cow   5871 introduced!
+   Note in line:  3016 Cow   5872 introduced!
+   Note in line:  3018 Cow   5873 introduced!
+   Note in line:  3020 Cow   5874 introduced!
+   Note in line:  3022 Cow   5875 introduced!
+   Note in line:  3024 Cow   5877 introduced!
+   Note in line:  3026 Cow   5878 introduced!
+   Note in line:  3028 Cow   5879 introduced!
+   Note in line:  3030 Cow   5880 introduced!
+   Note in line:  3032 Cow   5881 introduced!
+   Note in line:  3034 Cow   5886 introduced!
+   Note in line:  3036 Cow   5887 introduced!
+   Note in line:  3038 Cow   5888 introduced!
+   Note in line:  3040 Cow   5889 introduced!
+   Note in line:  3042 Cow   5890 introduced!
+   Note in line:  3044 Cow   5894 introduced!
+   Note in line:  3046 Cow   5895 introduced!
+   Note in line:  3048 Cow   5897 introduced!
+   Note in line:  3050 Cow   5898 introduced!
+   Note in line:  3052 Cow   5899 introduced!
+   Note in line:  3054 Cow   5900 introduced!
+   Note in line:  3056 Cow   5901 introduced!
+   Note in line:  3058 Cow   5902 introduced!
+   Note in line:  3060 Cow   5906 introduced!
+   Note in line:  3062 Cow   5907 introduced!
+   Note in line:  3064 Cow   5909 introduced!
+   Note in line:  3066 Cow   5910 introduced!
+   Note in line:  3068 Cow   5911 introduced!
+   Note in line:  3070 Cow   5912 introduced!
+   Note in line:  3072 Cow   5913 introduced!
+   Note in line:  3074 Cow   5914 introduced!
+   Note in line:  3076 Cow   5916 introduced!
+   Note in line:  3078 Cow   5918 introduced!
+   Note in line:  3080 Cow   5919 introduced!
+   Note in line:  3082 Cow   5920 introduced!
+   Note in line:  3084 Cow   5921 introduced!
+   Note in line:  3086 Cow   5922 introduced!
+   Note in line:  3088 Cow   5923 introduced!
+   Note in line:  3090 Cow   5924 introduced!
+   Note in line:  3092 Cow   5926 introduced!
+   Note in line:  3094 Cow   5927 introduced!
+   Note in line:  3096 Cow   5928 introduced!
+   Note in line:  3098 Cow   5930 introduced!
+   Note in line:  3100 Cow   5931 introduced!
+   Note in line:  3102 Cow   5932 introduced!
+   Note in line:  3104 Cow   5933 introduced!
+   Note in line:  3106 Cow   5934 introduced!
+   Note in line:  3108 Cow   5936 introduced!
+   Note in line:  3110 Cow   5937 introduced!
+   Note in line:  3112 Cow   5939 introduced!
+   Note in line:  3114 Cow   5940 introduced!
+   Note in line:  3116 Cow   5941 introduced!
+   Note in line:  3118 Cow   5943 introduced!
+   Note in line:  3120 Cow   5944 introduced!
+   Note in line:  3122 Cow   5945 introduced!
+   Note in line:  3124 Cow   5946 introduced!
+   Note in line:  3126 Cow   5947 introduced!
+   Note in line:  3128 Cow   5948 introduced!
+   Note in line:  3130 Cow   5950 introduced!
+   Note in line:  3132 Cow   5953 introduced!
+   Note in line:  3134 Cow   5954 introduced!
+   Note in line:  3136 Cow   5955 introduced!
+   Note in line:  3138 Cow   5956 introduced!
+   Note in line:  3140 Cow   5957 introduced!
+   Note in line:  3142 Cow   5958 introduced!
+   Note in line:  3144 Cow   5959 introduced!
+   Note in line:  3146 Cow   5961 introduced!
+   Note in line:  3148 Cow   5962 introduced!
+   Note in line:  3150 Cow   5963 introduced!
+   Note in line:  3152 Cow   5964 introduced!
+   Note in line:  3154 Cow   5965 introduced!
+   Note in line:  3156 Cow   5966 introduced!
+   Note in line:  3158 Cow   5967 introduced!
+   Note in line:  3160 Cow   5968 introduced!
+   Note in line:  3162 Cow   5969 introduced!
+   Note in line:  3164 Cow   5970 introduced!
+   Note in line:  3166 Cow   5971 introduced!
+   Note in line:  3168 Cow   5972 introduced!
+   Note in line:  3170 Cow   5973 introduced!
+   Note in line:  3172 Cow   5975 introduced!
+   Note in line:  3174 Cow   5976 introduced!
+   Note in line:  3176 Cow   5977 introduced!
+   Note in line:  3178 Cow   5978 introduced!
+   Note in line:  3180 Cow   5980 introduced!
+   Note in line:  3182 Cow   5981 introduced!
+   Note in line:  3184 Cow   5982 introduced!
+   Note in line:  3186 Cow   5983 introduced!
+   Note in line:  3188 Cow   5984 introduced!
+   Note in line:  3190 Cow   5985 introduced!
+   Note in line:  3192 Cow   5987 introduced!
+   Note in line:  3194 Cow   5990 introduced!
+   Note in line:  3196 Cow   5992 introduced!
+   Note in line:  3198 Cow   5993 introduced!
+   Note in line:  3200 Cow   5994 introduced!
+   Note in line:  3202 Cow   5996 introduced!
+   Note in line:  3204 Cow   5998 introduced!
+   Note in line:  3206 Cow   5999 introduced!
+   Note in line:  3208 Cow   6000 introduced!
+   Note in line:  3210 Cow   6001 introduced!
+   Note in line:  3212 Cow   6002 introduced!
+   Note in line:  3214 Cow   6003 introduced!
+   Note in line:  3216 Cow   6005 introduced!
+   Note in line:  3218 Cow   6006 introduced!
+   Note in line:  3220 Cow   6007 introduced!
+   Note in line:  3222 Cow   6008 introduced!
+   Note in line:  3224 Cow   6009 introduced!
+   Note in line:  3226 Cow   6010 introduced!
+   Note in line:  3228 Cow   6011 introduced!
+   Note in line:  3230 Cow   6012 introduced!
+   Note in line:  3232 Cow   6013 introduced!
+   Note in line:  3234 Cow   6014 introduced!
+  Error in line:  3236 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3236 Cow   6015 introduced!
+  Error in line:  3236 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3236 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3238 Cow   6016 introduced!
+   Note in line:  3240 Cow   6017 introduced!
+   Note in line:  3242 Cow   6018 introduced!
+   Note in line:  3244 Cow   6019 introduced!
+   Note in line:  3246 Cow   6020 introduced!
+   Note in line:  3248 Cow   6021 introduced!
+   Note in line:  3250 Cow   6022 introduced!
+   Note in line:  3252 Cow   6023 introduced!
+   Note in line:  3254 Cow   6024 introduced!
+   Note in line:  3256 Cow   6025 introduced!
+   Note in line:  3258 Cow   6026 introduced!
+   Note in line:  3260 Cow   6027 introduced!
+   Note in line:  3262 Cow   6028 introduced!
+   Note in line:  3264 Cow   6029 introduced!
+   Note in line:  3266 Cow   6030 introduced!
+   Note in line:  3268 Cow   6031 introduced!
+   Note in line:  3270 Cow   6033 introduced!
+   Note in line:  3272 Cow   6034 introduced!
+   Note in line:  3274 Cow   6035 introduced!
+   Note in line:  3276 Cow   6036 introduced!
+   Note in line:  3278 Cow   6037 introduced!
+   Note in line:  3280 Cow   6038 introduced!
+  Error in line:  3282 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3282 Cow   6039 introduced!
+  Error in line:  3282 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3282 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3284 Cow   6040 introduced!
+   Note in line:  3286 Cow   6042 introduced!
+   Note in line:  3288 Cow   6045 introduced!
+   Note in line:  3290 Cow   6046 introduced!
+   Note in line:  3292 Cow   6047 introduced!
+   Note in line:  3294 Cow   6048 introduced!
+   Note in line:  3296 Cow   6049 introduced!
+   Note in line:  3298 Cow   6050 introduced!
+   Note in line:  3300 Cow   6051 introduced!
+   Note in line:  3302 Cow   6052 introduced!
+   Note in line:  3304 Cow   6053 introduced!
+   Note in line:  3306 Cow   6054 introduced!
+   Note in line:  3308 Cow   6055 introduced!
+   Note in line:  3310 Cow   6056 introduced!
+   Note in line:  3312 Cow   6057 introduced!
+   Note in line:  3314 Cow   6058 introduced!
+   Note in line:  3316 Cow   6059 introduced!
+   Note in line:  3318 Cow   6060 introduced!
+   Note in line:  3320 Cow   6061 introduced!
+   Note in line:  3322 Cow   6062 introduced!
+  Error in line:  3324 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3324 Cow   6063 introduced!
+  Error in line:  3324 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3324 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3326 Cow   6064 introduced!
+   Note in line:  3328 Cow   6065 introduced!
+  Error in line:  3330 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3330 Cow   6066 introduced!
+  Error in line:  3330 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3330 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3332 Cow   6067 introduced!
+   Note in line:  3334 Cow   6068 introduced!
+   Note in line:  3336 Cow   6069 introduced!
+   Note in line:  3338 Cow   6070 introduced!
+   Note in line:  3340 Cow   6071 introduced!
+   Note in line:  3342 Cow   6072 introduced!
+   Note in line:  3344 Cow   6073 introduced!
+   Note in line:  3346 Cow   6074 introduced!
+   Note in line:  3348 Cow   6075 introduced!
+   Note in line:  3350 Cow   6076 introduced!
+   Note in line:  3352 Cow   6077 introduced!
+   Note in line:  3354 Cow   6079 introduced!
+   Note in line:  3356 Cow   6080 introduced!
+   Note in line:  3358 Cow   6082 introduced!
+   Note in line:  3360 Cow   6083 introduced!
+   Note in line:  3362 Cow   6084 introduced!
+   Note in line:  3364 Cow   6085 introduced!
+  Error in line:  3366 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3366 Cow   6086 introduced!
+  Error in line:  3366 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3366 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3368 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3368 Cow   6087 introduced!
+  Error in line:  3368 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3368 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3370 Cow   6088 introduced!
+   Note in line:  3372 Cow   6089 introduced!
+   Note in line:  3374 Cow   6090 introduced!
+   Note in line:  3376 Cow   6092 introduced!
+   Note in line:  3378 Cow   6093 introduced!
+   Note in line:  3380 Cow   6094 introduced!
+  Error in line:  3382 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3382 Cow   6095 introduced!
+  Error in line:  3382 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3382 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3384 Cow   6096 introduced!
+   Note in line:  3386 Cow   6097 introduced!
+   Note in line:  3388 Cow   6098 introduced!
+   Note in line:  3390 Cow   6099 introduced!
+   Note in line:  3392 Cow   6100 introduced!
+   Note in line:  3394 Cow   6101 introduced!
+   Note in line:  3396 Cow   6102 introduced!
+  Error in line:  3398 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3398 Cow   6104 introduced!
+  Error in line:  3398 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3398 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3400 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3400 Cow   6105 introduced!
+  Error in line:  3400 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3400 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3402 Cow   6106 introduced!
+   Note in line:  3404 Cow   6107 introduced!
+  Error in line:  3406 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3406 Cow   6108 introduced!
+  Error in line:  3406 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3406 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3408 Cow   6109 introduced!
+   Note in line:  3410 Cow   6110 introduced!
+   Note in line:  3412 Cow   6111 introduced!
+   Note in line:  3414 Cow   6112 introduced!
+   Note in line:  3416 Cow   6114 introduced!
+   Note in line:  3418 Cow   6116 introduced!
+   Note in line:  3420 Cow   6117 introduced!
+   Note in line:  3422 Cow   6118 introduced!
+   Note in line:  3424 Cow   6119 introduced!
+   Note in line:  3426 Cow   6121 introduced!
+   Note in line:  3428 Cow   6122 introduced!
+   Note in line:  3430 Cow   6124 introduced!
+   Note in line:  3432 Cow   6125 introduced!
+   Note in line:  3434 Cow   6126 introduced!
+   Note in line:  3436 Cow   6127 introduced!
+  Error in line:  3438 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3438 Cow   6128 introduced!
+  Error in line:  3438 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3438 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3440 Cow   6129 introduced!
+   Note in line:  3442 Cow   6130 introduced!
+   Note in line:  3444 Cow   6131 introduced!
+   Note in line:  3446 Cow   6132 introduced!
+   Note in line:  3448 Cow   6133 introduced!
+  Error in line:  3450 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3450 Cow   6135 introduced!
+  Error in line:  3450 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3450 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3452 Cow   6136 introduced!
+   Note in line:  3454 Cow   6137 introduced!
+   Note in line:  3456 Cow   6138 introduced!
+   Note in line:  3458 Cow   6139 introduced!
+   Note in line:  3460 Cow   6140 introduced!
+   Note in line:  3462 Cow   6141 introduced!
+   Note in line:  3464 Cow   6142 introduced!
+   Note in line:  3466 Cow   6143 introduced!
+   Note in line:  3468 Cow   6144 introduced!
+   Note in line:  3470 Cow   6147 introduced!
+   Note in line:  3472 Cow   6149 introduced!
+   Note in line:  3474 Cow   6151 introduced!
+   Note in line:  3476 Cow   6152 introduced!
+   Note in line:  3478 Cow   6153 introduced!
+  Error in line:  3480 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3480 Cow   6154 introduced!
+  Error in line:  3480 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3480 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3482 Cow   6155 introduced!
+   Note in line:  3484 Cow   6156 introduced!
+   Note in line:  3486 Cow   6157 introduced!
+   Note in line:  3488 Cow   6159 introduced!
+   Note in line:  3490 Cow   6160 introduced!
+  Error in line:  3492 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3492 Cow   6162 introduced!
+  Error in line:  3492 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3492 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3494 Cow   6163 introduced!
+   Note in line:  3496 Cow   6164 introduced!
+  Error in line:  3498 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3498 Cow   6165 introduced!
+  Error in line:  3498 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3498 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3500 Cow   6166 introduced!
+  Error in line:  3502 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3502 Cow   6167 introduced!
+  Error in line:  3502 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3502 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3504 Cow   6168 introduced!
+   Note in line:  3506 Cow   6169 introduced!
+   Note in line:  3508 Cow   6171 introduced!
+   Note in line:  3510 Cow   6172 introduced!
+   Note in line:  3512 Cow   6174 introduced!
+   Note in line:  3514 Cow   6177 introduced!
+   Note in line:  3516 Cow   6178 introduced!
+   Note in line:  3518 Cow   6179 introduced!
+   Note in line:  3520 Cow   6181 introduced!
+   Note in line:  3522 Cow   6182 introduced!
+   Note in line:  3524 Cow   6183 introduced!
+   Note in line:  3526 Cow   6185 introduced!
+   Note in line:  3528 Cow   6186 introduced!
+   Note in line:  3530 Cow   6187 introduced!
+   Note in line:  3532 Cow   6188 introduced!
+   Note in line:  3534 Cow   6189 introduced!
+  Error in line:  3536 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3536 Cow   6190 introduced!
+  Error in line:  3536 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3536 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3538 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3538 Cow   6191 introduced!
+  Error in line:  3538 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3538 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3540 Cow   6192 introduced!
+   Note in line:  3542 Cow   6193 introduced!
+   Note in line:  3544 Cow   6194 introduced!
+   Note in line:  3546 Cow   6195 introduced!
+  Error in line:  3548 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3548 Cow   6196 introduced!
+  Error in line:  3548 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3548 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3550 Cow   6197 introduced!
+   Note in line:  3552 Cow   6198 introduced!
+   Note in line:  3554 Cow   6199 introduced!
+   Note in line:  3556 Cow   6200 introduced!
+   Note in line:  3558 Cow   6202 introduced!
+   Note in line:  3560 Cow   6203 introduced!
+   Note in line:  3562 Cow   6204 introduced!
+   Note in line:  3564 Cow   6205 introduced!
+  Error in line:  3566 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3566 Cow   6207 introduced!
+  Error in line:  3566 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3566 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3568 Cow   6210 introduced!
+  Error in line:  3570 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3570 Cow   6211 introduced!
+  Error in line:  3570 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3570 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3572 Cow   6212 introduced!
+   Note in line:  3574 Cow   6214 introduced!
+  Error in line:  3576 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3576 Cow   6215 introduced!
+  Error in line:  3576 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3576 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3578 Cow   6216 introduced!
+  Error in line:  3580 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3580 Cow   6217 introduced!
+  Error in line:  3580 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3580 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3582 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3582 Cow   6218 introduced!
+  Error in line:  3582 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3582 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3584 Cow   6219 introduced!
+   Note in line:  3586 Cow   6220 introduced!
+   Note in line:  3588 Cow   6221 introduced!
+   Note in line:  3590 Cow   6222 introduced!
+   Note in line:  3592 Cow   6223 introduced!
+   Note in line:  3594 Cow   6224 introduced!
+   Note in line:  3596 Cow   6226 introduced!
+   Note in line:  3598 Cow   6227 introduced!
+  Error in line:  3600 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3600 Cow   6229 introduced!
+  Error in line:  3600 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3600 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3602 Cow   6230 introduced!
+   Note in line:  3604 Cow   6231 introduced!
+  Error in line:  3606 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3606 Cow   6232 introduced!
+  Error in line:  3606 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3606 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3608 Cow   6233 introduced!
+  Error in line:  3610 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3610 Cow   6234 introduced!
+  Error in line:  3610 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3610 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3612 Cow   6235 introduced!
+   Note in line:  3614 Cow   6236 introduced!
+   Note in line:  3616 Cow   6237 introduced!
+   Note in line:  3618 Cow   6238 introduced!
+   Note in line:  3620 Cow   6239 introduced!
+  Error in line:  3622 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3622 Cow   6240 introduced!
+  Error in line:  3622 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3622 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3624 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3624 Cow   6241 introduced!
+  Error in line:  3624 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3624 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3626 Cow   6242 introduced!
+   Note in line:  3628 Cow   6243 introduced!
+   Note in line:  3630 Cow   6244 introduced!
+   Note in line:  3632 Cow   6245 introduced!
+   Note in line:  3634 Cow   6246 introduced!
+  Error in line:  3636 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3636 Cow   6247 introduced!
+  Error in line:  3636 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3636 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3638 Cow   6248 introduced!
+   Note in line:  3640 Cow   6249 introduced!
+   Note in line:  3642 Cow   6250 introduced!
+   Note in line:  3644 Cow   6251 introduced!
+  Error in line:  3646 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3646 Cow   6252 introduced!
+  Error in line:  3646 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3646 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3648 Cow   6253 introduced!
+   Note in line:  3650 Cow   6254 introduced!
+  Error in line:  3652 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3652 Cow   6255 introduced!
+  Error in line:  3652 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3652 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3654 Cow   6257 introduced!
+   Note in line:  3656 Cow   6258 introduced!
+   Note in line:  3658 Cow   6259 introduced!
+  Error in line:  3660 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3660 Cow   6260 introduced!
+  Error in line:  3660 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3660 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3662 Cow   6261 introduced!
+  Error in line:  3664 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3664 Cow   6262 introduced!
+  Error in line:  3664 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3664 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3666 Cow   6263 introduced!
+  Error in line:  3668 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3668 Cow   6264 introduced!
+  Error in line:  3668 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3668 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3670 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3670 Cow   6265 introduced!
+  Error in line:  3670 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3670 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3672 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3672 Cow   6266 introduced!
+  Error in line:  3672 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3672 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3674 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3674 Cow   6267 introduced!
+  Error in line:  3674 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3674 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3676 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3676 Cow   6268 introduced!
+  Error in line:  3676 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3676 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3678 Cow   6269 introduced!
+   Note in line:  3680 Cow   6272 introduced!
+   Note in line:  3682 Cow   6273 introduced!
+  Error in line:  3684 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3684 Cow   6274 introduced!
+  Error in line:  3684 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3684 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3686 Cow   6275 introduced!
+   Note in line:  3688 Cow   6276 introduced!
+   Note in line:  3690 Cow   6278 introduced!
+   Note in line:  3692 Cow   6279 introduced!
+   Note in line:  3694 Cow   6280 introduced!
+   Note in line:  3696 Cow   6281 introduced!
+   Note in line:  3698 Cow   6282 introduced!
+   Note in line:  3700 Cow   6283 introduced!
+  Error in line:  3702 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3702 Cow   6284 introduced!
+  Error in line:  3702 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3702 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3704 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3704 Cow   6286 introduced!
+  Error in line:  3704 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3704 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3706 Cow   6287 introduced!
+   Note in line:  3708 Cow   6290 introduced!
+  Error in line:  3710 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3710 Cow   6291 introduced!
+  Error in line:  3710 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3710 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3712 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3712 Cow   6292 introduced!
+  Error in line:  3712 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3712 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3714 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3714 Cow   6293 introduced!
+  Error in line:  3714 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3714 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3716 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3716 Cow   6294 introduced!
+  Error in line:  3716 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3716 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3718 Cow   6295 introduced!
+   Note in line:  3720 Cow   6296 introduced!
+  Error in line:  3722 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3722 Cow   6297 introduced!
+  Error in line:  3722 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3722 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3724 Cow   6298 introduced!
+   Note in line:  3726 Cow   6299 introduced!
+  Error in line:  3728 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3728 Cow   6300 introduced!
+  Error in line:  3728 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3728 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3730 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3730 Cow   6301 introduced!
+  Error in line:  3730 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3730 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3732 Cow   6302 introduced!
+  Error in line:  3734 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3734 Cow   6303 introduced!
+  Error in line:  3734 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3734 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3736 Cow   6304 introduced!
+  Error in line:  3738 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3738 Cow   6305 introduced!
+  Error in line:  3738 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3738 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3740 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3740 Cow   6306 introduced!
+  Error in line:  3740 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3740 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3742 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3742 Cow   6307 introduced!
+  Error in line:  3742 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3742 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3744 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3744 Cow   6308 introduced!
+  Error in line:  3744 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3744 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3746 Cow   6309 introduced!
+   Note in line:  3748 Cow   6310 introduced!
+   Note in line:  3750 Cow   6311 introduced!
+  Error in line:  3752 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3752 Cow   6313 introduced!
+  Error in line:  3752 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3752 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3754 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3754 Cow   6314 introduced!
+  Error in line:  3754 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3754 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3756 Cow   6315 introduced!
+   Note in line:  3758 Cow   6317 introduced!
+   Note in line:  3760 Cow   6318 introduced!
+  Error in line:  3762 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3762 Cow   6321 introduced!
+  Error in line:  3762 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3762 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3764 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3764 Cow   6322 introduced!
+  Error in line:  3764 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3764 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3766 Cow   6323 introduced!
+  Error in line:  3768 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3768 Cow   6324 introduced!
+  Error in line:  3768 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3768 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3770 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3770 Cow   6325 introduced!
+  Error in line:  3770 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3770 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3772 Cow   6327 introduced!
+   Note in line:  3774 Cow   6328 introduced!
+  Error in line:  3776 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3776 Cow   6330 introduced!
+  Error in line:  3776 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3776 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3778 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3778 Cow   6332 introduced!
+  Error in line:  3778 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3778 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3780 Cow   6334 introduced!
+  Error in line:  3782 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3782 Cow   6335 introduced!
+  Error in line:  3782 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3782 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3784 Cow   6336 introduced!
+  Error in line:  3786 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3786 Cow   6337 introduced!
+  Error in line:  3786 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3786 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3788 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3788 Cow   6338 introduced!
+  Error in line:  3788 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3788 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3790 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3790 Cow   6339 introduced!
+  Error in line:  3790 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3790 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3792 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3792 Cow   6340 introduced!
+  Error in line:  3792 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3792 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3794 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3794 Cow   6341 introduced!
+  Error in line:  3794 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3794 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3796 Cow   6342 introduced!
+   Note in line:  3798 Cow   6343 introduced!
+   Note in line:  3800 Cow   6345 introduced!
+   Note in line:  3802 Cow   6346 introduced!
+  Error in line:  3804 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3804 Cow   6347 introduced!
+  Error in line:  3804 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3804 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3806 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3806 Cow   6348 introduced!
+  Error in line:  3806 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3806 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3808 Cow   6349 introduced!
+   Note in line:  3810 Cow   6350 introduced!
+  Error in line:  3812 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3812 Cow   6351 introduced!
+  Error in line:  3812 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3812 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3814 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3814 Cow   6352 introduced!
+  Error in line:  3814 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3814 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3816 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3816 Cow   6353 introduced!
+  Error in line:  3816 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3816 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3818 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3818 Cow   6354 introduced!
+  Error in line:  3818 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3818 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3820 Cow   6355 introduced!
+  Error in line:  3822 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3822 Cow   6356 introduced!
+  Error in line:  3822 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3822 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3824 Cow   6357 introduced!
+  Error in line:  3826 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3826 Cow   6358 introduced!
+  Error in line:  3826 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3826 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3828 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3828 Cow   6359 introduced!
+  Error in line:  3828 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3828 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3830 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3830 Cow   6360 introduced!
+  Error in line:  3830 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3830 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3832 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3832 Cow   6361 introduced!
+  Error in line:  3832 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3832 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3834 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3834 Cow   6362 introduced!
+  Error in line:  3834 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3834 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3836 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3836 Cow   6363 introduced!
+  Error in line:  3836 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3836 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3838 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3838 Cow   6364 introduced!
+  Error in line:  3838 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3838 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3840 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3840 Cow   6365 introduced!
+  Error in line:  3840 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3840 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3842 Cow   6366 introduced!
+  Error in line:  3844 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3844 Cow   6368 introduced!
+  Error in line:  3844 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3844 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3846 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3846 Cow   6370 introduced!
+  Error in line:  3846 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3846 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3848 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3848 Cow   6371 introduced!
+  Error in line:  3848 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3848 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3850 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3850 Cow   6372 introduced!
+  Error in line:  3850 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3850 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3852 Cow   6374 introduced!
+  Error in line:  3854 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3854 Cow   6375 introduced!
+  Error in line:  3854 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3854 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3856 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3856 Cow   6376 introduced!
+  Error in line:  3856 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3856 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3858 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3858 Cow   6377 introduced!
+  Error in line:  3858 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3858 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3860 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3860 Cow   6378 introduced!
+  Error in line:  3860 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3860 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3862 Cow   6379 introduced!
+  Error in line:  3864 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3864 Cow   6380 introduced!
+  Error in line:  3864 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3864 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3866 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3866 Cow   6381 introduced!
+  Error in line:  3866 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3866 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3868 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3868 Cow   6382 introduced!
+  Error in line:  3868 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3868 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3870 Cow   6383 introduced!
+   Note in line:  3872 Cow   6384 introduced!
+  Error in line:  3874 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3874 Cow   6385 introduced!
+  Error in line:  3874 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3874 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3876 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3876 Cow   6387 introduced!
+  Error in line:  3876 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3876 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3878 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3878 Cow   6388 introduced!
+  Error in line:  3878 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3878 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3880 Cow   6389 introduced!
+  Error in line:  3882 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3882 Cow   6390 introduced!
+  Error in line:  3882 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3882 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3884 Cow   6391 introduced!
+  Error in line:  3886 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3886 Cow   6392 introduced!
+  Error in line:  3886 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3886 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3888 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3888 Cow   6394 introduced!
+  Error in line:  3888 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3888 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3890 Cow   6395 introduced!
+   Note in line:  3892 Cow   6396 introduced!
+  Error in line:  3894 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3894 Cow   6397 introduced!
+  Error in line:  3894 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3894 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3896 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3896 Cow   6398 introduced!
+  Error in line:  3896 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3896 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3898 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3898 Cow   6400 introduced!
+  Error in line:  3898 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3898 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3900 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3900 Cow   6401 introduced!
+  Error in line:  3900 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3900 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3902 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3902 Cow   6402 introduced!
+  Error in line:  3902 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3902 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3904 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3904 Cow   6403 introduced!
+  Error in line:  3904 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3904 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3906 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3906 Cow   6404 introduced!
+  Error in line:  3906 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3906 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3908 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3908 Cow   6405 introduced!
+  Error in line:  3908 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3908 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3910 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3910 Cow   6407 introduced!
+  Error in line:  3910 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3910 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3912 Cow   6408 introduced!
+  Error in line:  3914 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3914 Cow   6409 introduced!
+  Error in line:  3914 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3914 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3916 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3916 Cow   6410 introduced!
+  Error in line:  3916 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3916 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3918 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3918 Cow   6412 introduced!
+  Error in line:  3918 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3918 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3920 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3920 Cow   6413 introduced!
+  Error in line:  3920 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3920 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3922 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3922 Cow   6415 introduced!
+  Error in line:  3922 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3922 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3924 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3924 Cow   6416 introduced!
+  Error in line:  3924 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3924 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3926 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3926 Cow   6417 introduced!
+  Error in line:  3926 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3926 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3928 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3928 Cow   6418 introduced!
+  Error in line:  3928 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3928 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3930 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3930 Cow   6419 introduced!
+  Error in line:  3930 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3930 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3932 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3932 Cow   6420 introduced!
+  Error in line:  3932 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3932 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3934 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3934 Cow   6421 introduced!
+  Error in line:  3934 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3934 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3936 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3936 Cow   6422 introduced!
+  Error in line:  3936 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3936 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3938 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3938 Cow   6423 introduced!
+  Error in line:  3938 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3938 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3940 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3940 Cow   6424 introduced!
+  Error in line:  3940 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3940 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3942 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3942 Cow   6425 introduced!
+  Error in line:  3942 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3942 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3944 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3944 Cow   6426 introduced!
+  Error in line:  3944 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3944 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3946 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3946 Cow   6427 introduced!
+  Error in line:  3946 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3946 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3948 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3948 Cow   6428 introduced!
+  Error in line:  3948 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3948 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3950 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3950 Cow   6430 introduced!
+  Error in line:  3950 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3950 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3952 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3952 Cow   6431 introduced!
+  Error in line:  3952 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3952 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3954 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3954 Cow   6433 introduced!
+  Error in line:  3954 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3954 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3956 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3956 Cow   6434 introduced!
+  Error in line:  3956 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3956 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3958 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3958 Cow   6435 introduced!
+  Error in line:  3958 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3958 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3960 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3960 Cow   6436 introduced!
+  Error in line:  3960 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3960 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3962 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3962 Cow   6438 introduced!
+  Error in line:  3962 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3962 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3964 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3964 Cow   6439 introduced!
+  Error in line:  3964 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3964 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3966 Cow   6440 introduced!
+  Error in line:  3968 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3968 Cow   6441 introduced!
+  Error in line:  3968 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3968 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3970 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3970 Cow   6442 introduced!
+  Error in line:  3970 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3970 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3972 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3972 Cow   6443 introduced!
+  Error in line:  3972 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3972 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3974 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3974 Cow   6444 introduced!
+  Error in line:  3974 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3974 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3976 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3976 Cow   6445 introduced!
+  Error in line:  3976 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3976 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3978 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3978 Cow   6447 introduced!
+  Error in line:  3978 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3978 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3980 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3980 Cow   6448 introduced!
+  Error in line:  3980 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3980 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3982 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3982 Cow   6449 introduced!
+  Error in line:  3982 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3982 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3984 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3984 Cow   6451 introduced!
+  Error in line:  3984 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3984 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3986 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3986 Cow   6452 introduced!
+  Error in line:  3986 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3986 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3988 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3988 Cow   6453 introduced!
+  Error in line:  3988 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3988 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3990 Cow   6454 introduced!
+  Error in line:  3992 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3992 Cow   6455 introduced!
+  Error in line:  3992 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3992 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3994 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3994 Cow   6456 introduced!
+  Error in line:  3994 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3994 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3996 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3996 Cow   6457 introduced!
+  Error in line:  3996 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3996 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3998 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  3998 Cow   6458 introduced!
+  Error in line:  3998 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  3998 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4000 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4000 Cow   6459 introduced!
+  Error in line:  4000 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4000 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4002 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4002 Cow   6460 introduced!
+  Error in line:  4002 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4002 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4004 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4004 Cow   6461 introduced!
+  Error in line:  4004 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4004 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4006 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4006 Cow   6463 introduced!
+  Error in line:  4006 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4006 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4008 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4008 Cow   6466 introduced!
+  Error in line:  4008 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4008 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4010 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4010 Cow   6467 introduced!
+  Error in line:  4010 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4010 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4012 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4012 Cow   6468 introduced!
+  Error in line:  4012 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4012 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4014 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4014 Cow   6470 introduced!
+  Error in line:  4014 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4014 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4016 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4016 Cow   6471 introduced!
+  Error in line:  4016 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4016 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4018 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4018 Cow   6472 introduced!
+  Error in line:  4018 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4018 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4020 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4020 Cow   6473 introduced!
+  Error in line:  4020 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4020 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4022 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4022 Cow   6474 introduced!
+  Error in line:  4022 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4022 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4024 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4024 Cow   6475 introduced!
+  Error in line:  4024 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4024 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4026 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4026 Cow   6476 introduced!
+  Error in line:  4026 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4026 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4028 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4028 Cow   6477 introduced!
+  Error in line:  4028 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4028 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4030 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4030 Cow   6479 introduced!
+  Error in line:  4030 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4030 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4032 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4032 Cow   6480 introduced!
+  Error in line:  4032 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4032 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4034 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4034 Cow   6481 introduced!
+  Error in line:  4034 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4034 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4036 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4036 Cow   6482 introduced!
+  Error in line:  4036 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4036 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4038 Cow   6483 introduced!
+  Error in line:  4040 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4040 Cow   6484 introduced!
+  Error in line:  4040 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4040 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4042 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4042 Cow   6485 introduced!
+  Error in line:  4042 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4042 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4044 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4044 Cow   6486 introduced!
+  Error in line:  4044 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4044 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4046 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4046 Cow   6487 introduced!
+  Error in line:  4046 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4046 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4048 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4048 Cow   6488 introduced!
+  Error in line:  4048 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4048 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4050 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4050 Cow   6489 introduced!
+  Error in line:  4050 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4050 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4052 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4052 Cow   6490 introduced!
+  Error in line:  4052 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4052 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4054 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4054 Cow   6491 introduced!
+  Error in line:  4054 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4054 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4056 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4056 Cow   6492 introduced!
+  Error in line:  4056 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4056 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4058 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4058 Cow   6493 introduced!
+  Error in line:  4058 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4058 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4060 Cow   6495 introduced!
+  Error in line:  4062 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4062 Cow   6496 introduced!
+  Error in line:  4062 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4062 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4064 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4064 Cow   6497 introduced!
+  Error in line:  4064 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4064 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4066 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4066 Cow   6498 introduced!
+  Error in line:  4066 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4066 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4068 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4068 Cow   6499 introduced!
+  Error in line:  4068 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4068 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4070 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4070 Cow   6501 introduced!
+  Error in line:  4070 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4070 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4072 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4072 Cow   6502 introduced!
+  Error in line:  4072 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4072 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4074 Cow   6503 introduced!
+  Error in line:  4076 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4076 Cow   6504 introduced!
+  Error in line:  4076 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4076 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4078 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4078 Cow   6505 introduced!
+  Error in line:  4078 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4078 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4080 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4080 Cow   6506 introduced!
+  Error in line:  4080 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4080 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4082 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+   Note in line:  4082 Cow   6508 introduced!
+  Error in line:  4082 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4082 Value 0 is not a valid date. DD-number: 300035 (DateCalving)
+  Error in line:  4084 Value 0 i

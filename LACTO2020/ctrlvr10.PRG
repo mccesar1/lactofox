@@ -1,0 +1,458 @@
+* REPORTE DE CALCULO DE TASA DE PREÑEZ
+* ------------------------------------
+USE reg ORDER 2 IN 1
+USE CALOR ORDER 2 IN 2
+XCDIAS=50
+Q5=50
+
+
+*PROCEDURE RV1068
+*PARAMETER xCDIAS
+Dimension xVACAS(35),xDETEC(35),nVACAS(35),xCARGA(35)
+xVACAS=0
+xDETEC=0
+
+nVACAS=0
+xCARGA=0
+
+Select CALOR
+Set Order To 2
+
+Select REG
+Set Order To 2
+Set Filter To FB2=B
+
+*Set Relation To ID Into CALOR
+SCAN
+** DETECCION DE CELO
+** ------------------------------*
+* 1		
+	If DPR>=xCDIAS 
+			xVACAS(1)=xVACAS(1)+1
+			
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(1)=IIF(FECHA>=REG.FPAR+xCDIAS And FECHA<=REG.FPAR+xCDIAS+21 And (CLAVE=4 Or CLAVE=5),xDETEC(1)+1,xDETEC(1))
+			EndScan
+			Select REG
+		Endif
+* 2
+		If DPR>xCDIAS+21
+			xVACAS(2)=xVACAS(2)+1
+			
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(2)=IIF(FECHA>=REG.FPAR+xCDIAS+21 And FECHA<=REG.FPAR+xCDIAS+42 And (CLAVE=4 Or CLAVE=5),xDETEC(2)+1,xDETEC(2))
+			EndScan
+			Select REG
+		Endif
+* 3
+		If DPR>=xCDIAS+42
+			xVACAS(3)=xVACAS(3)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(3)=IIF(FECHA>=REG.FPAR+xCDIAS+42 And FECHA<=REG.FPAR+xCDIAS+63 And (CLAVE=4 Or CLAVE=5),xDETEC(3)+1,xDETEC(3))
+			EndScan
+			Select REG
+		Endif
+* 4
+		If DPR>=xCDIAS+63
+			xVACAS(4)=xVACAS(4)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(4)=IIF(FECHA>=REG.FPAR+xCDIAS+63 And FECHA<=REG.FPAR+xCDIAS+84 And (CLAVE=4 Or CLAVE=5),xDETEC(4)+1,xDETEC(4))
+			EndScan
+			Select REG
+		Endif
+* 5
+		If DPR>=xCDIAS+84
+			xVACAS(5)=xVACAS(5)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+* 6
+		If DPR>=xCDIAS+105
+			xVACAS(6)=xVACAS(6)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(6)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(6)+1,xDETEC(6))
+			EndScan
+			Select REG
+		Endif
+* 7
+		If DPR>=xCDIAS+126
+			xVACAS(7)=xVACAS(7)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+* 8
+		If DPR>=xCDIAS+147
+			xVACAS(8)=xVACAS(8)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(8)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(8)+1,xDETEC(8))
+			EndScan
+			Select REG
+		Endif
+* 9
+		If DPR>=xCDIAS+168
+			xVACAS(9)=xVACAS(9)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*10
+		If DPR>=xCDIAS+189
+			xVACAS(10)=xVACAS(10)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*11
+		If DPR>=xCDIAS+210
+			xVACAS(11)=xVACAS(11)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*12
+		If DPR>=xCDIAS+231
+			xVACAS(12)=xVACAS(12)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*13
+		If DPR>=xCDIAS+252
+			xVACAS(13)=xVACAS(13)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*14
+		If DPR>=xCDIAS+273
+			xVACAS(14)=xVACAS(14)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*15
+		If DPR>=xCDIAS+294
+			xVACAS(15)=xVACAS(15)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*16
+		If DPR>=xCDIAS+315
+			xVACAS(16)=xVACAS(16)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*17
+		If DPR>=xCDIAS+336
+			xVACAS(17)=xVACAS(17)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*18
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*19
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+
+*20
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*21
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif
+*22
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		ENDIF
+*23
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif	
+*24
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif		
+*25
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif		
+*26
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif		
+		
+*27
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif		
+*28
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif		
+*29
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif		
+*30
+		If DPR>=xCDIAS+357
+			xVACAS(18)=xVACAS(18)+1
+
+			Select CALOR
+			Seek REG.ID
+			Scan While CALOR.ID=REG.ID 
+				xDETEC(5)=IIF(FECHA>=REG.FPAR+xCDIAS+84 And FECHA<=REG.FPAR+xCDIAS+105 And (CLAVE=4 Or CLAVE=5),xDETEC(5)+1,xDETEC(5))
+			EndScan
+			Select REG
+		Endif		
+	
+		
+		xVACAS(31)=xVACAS(1)+xVACAS(2)+xVACAS(3)+xVACAS(4)+xVACAS(5)+xVACAS(6)+xVACAS(7)+xVACAS(8)+xVACAS(9)+xVACAS(10)+xVACAS(11)+xVACAS(12)
+		xDETEC(31)=xDETEC(1)+xDETEC(2)+xDETEC(3)+xDETEC(4)+xDETEC(5)+xDETEC(6)+xDETEC(7)+xDETEC(8)+xDETEC(9)+xDETEC(10)+xDETEC(11)+xDETEC(12)
+
+*ENDSCAN
+
+
+
+
+
+** CALCULO DE TASA DE PREÑEZ
+** ------------------------------*
+*SCAN
+		If DPR>=Q5 AND PSV#'S' 
+			nVACAS(1)=nVACAS(1)+1
+			xCARGA(1)=IIF(DAB<=Q5+21 AND STAT='CARGA',xCARGA(1)+1,xCARGA(1))
+		Endif
+
+		If DPR>=Q5+21 AND PSV#'S'
+			nVACAS(2)=nVACAS(2)+1
+			xCARGA(2)=IIF(DAB>=Q5+21 And DAB<=Q5+42 And STAT='CARGA',xCARGA(2)+1,xCARGA(2))
+		Endif
+
+		If DPR>=Q5+42 AND PSV#'S'
+			nVACAS(3)=nVACAS(3)+1
+			xCARGA(3)=IIF(DAB<=Q5+63 And STAT='CARGA',xCARGA(3)+1,xCARGA(3))
+		Endif
+
+		If DPR>=Q5+63 AND PSV#'S'
+			nVACAS(4)=nVACAS(4)+1
+			xCARGA(4)=IIF(DAB>=Q5+63 AND DAB<=Q5+105 And STAT='CARGA',xCARGA(4)+1,xCARGA(4))
+		ENDIF
+		
+		If DPR>=Q5+84 AND PSV#'S'
+			nVACAS(5)=nVACAS(5)+1
+			xCARGA(5)=IIF(DAB>=Q5+84 AND DAB<=Q5+105 And STAT='CARGA',xCARGA(5)+1,xCARGA(5))
+		Endif		
+		
+		If DPR>=Q5+105 AND PSV#'S'
+			nVACAS(6)=nVACAS(6)+1
+			xCARGA(6)=IIF(DAB>=Q5+105 AND DAB<=Q5+126 And STAT='CARGA',xCARGA(6)+1,xCARGA(6))
+		Endif				
+
+		If DPR>=Q5+126 AND PSV#'S'
+			nVACAS(7)=nVACAS(7)+1
+			xCARGA(7)=IIF(DAB>=Q5+126 AND DAB<=Q5+147 And STAT='CARGA',xCARGA(7)+1,xCARGA(7))
+		Endif				
+
+		If DPR>=Q5+147 AND PSV#'S'
+			nVACAS(8)=nVACAS(8)+1
+			xCARGA(8)=IIF(DAB>=Q5+147 AND DAB<=Q5+168 And STAT='CARGA',xCARGA(8)+1,xCARGA(8))
+		Endif				
+
+		If DPR>=Q5+168 AND PSV#'S'
+			nVACAS(9)=nVACAS(9)+1
+			xCARGA(9)=IIF(DAB>=Q5+168 AND DAB<=Q5+189 And STAT='CARGA',xCARGA(9)+1,xCARGA(9))
+		Endif					
+		
+		If DPR>=Q5+189 AND PSV#'S'
+			nVACAS(10)=nVACAS(10)+1
+			xCARGA(10)=IIF(DAB>=Q5+168 AND DAB<=Q5+189 And STAT='CARGA',xCARGA(10)+1,xCARGA(10))
+		Endif				
+
+
+
+
+
+		nVACAS(15)=nVACAS(1)+nVACAS(2)+nVACAS(3)+nVACAS(4)+nVACAS(5)+nVACAS(6)+nVACAS(7)+nVACAS(8)+nVACAS(9)+nVACAS(10)+nVACAS(11)+nVACAS(12)
+		xCARGA(15)=xCARGA(1)+xCARGA(2)+xCARGA(3)+xCARGA(4)+xCARGA(5)+xCARGA(6)+xCARGA(7)+xCARGA(8)+xCARGA(9)+xCARGA(10)+xCARGA(11)+xCARGA(12)
+
+ENDSCAN
+Set Filter To
+
+Create Cursor REPORTE (Concepto c(20),COL1 c(5),COL2 c(5),COL3 c(5),COL4 c(5),COL5 c(5),COL6 c(5))
+
+xx=1
+DO WHILE xx<30
+  Append Blank
+  Replace CONCEPTO With STR(xCDIAS,3),COL1 With Str(xVACAS(xx),4),COL2 With Str(xDETEC(xx),4),COL3 With Str(xDETEC(xx)/xVACAS(xx)*100,3),COL4 With Str(nVACAS(xx),4),COL5 With Str(xCARGA(xx),4),COL6 With Str(xCARGA(xx)/nVACAS(xx)*100,3)
+  xx=xx+1
+  xCDIAS=xCDIAS+21	
+ENDDO
+
+APPEND BLANK
+APPEND Blank
+Replace CONCEPTO With 'Total',COL1 With Str(xVACAS(15),5),COL2 With Str(xDETEC(15),4),COL3 With IIF(xDETEC(15)>0,Str(xDETEC(15)/xVACAS(15)*100,3),'  0'),COL4 With Str(nVACAS(15),5),COL5 With Str(xCARGA(15),4),COL6 With IIF(nVACAS(15)>0,Str(xCARGA(15)/nVACAS(15)*100,3),'  0')
+
+GO Top
+Browse
+Select REG
+Set Filter To
+Set Relation To
+RETURN
+
+
+
+
